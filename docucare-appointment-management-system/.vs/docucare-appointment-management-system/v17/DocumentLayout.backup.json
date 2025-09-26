@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\winblows 11\\documents\\oop\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\winblows 11\\documents\\oop\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Form1.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\Form1.vb",
+              "ToolTip": "C:\\Users\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Form1.vb",
+              "RelativeToolTip": "docucare-appointment-management-system\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-26T07:52:16.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Form1.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\Form1.vb",
+              "ToolTip": "C:\\Users\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Form1.vb [Design]",
+              "RelativeToolTip": "docucare-appointment-management-system\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-26T07:51:22.353Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

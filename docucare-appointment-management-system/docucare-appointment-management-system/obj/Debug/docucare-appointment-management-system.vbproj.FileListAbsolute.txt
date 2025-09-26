@@ -1,0 +1,11 @@
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\bin\Debug\docucare-appointment-management-system.exe.config
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\bin\Debug\docucare-appointment-management-system.exe
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\bin\Debug\docucare-appointment-management-system.pdb
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\bin\Debug\docucare-appointment-management-system.xml
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.vbproj.AssemblyReference.cache
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.Resources.resources
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.vbproj.GenerateResource.cache
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.vbproj.CoreCompileInputs.cache
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.exe
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.xml
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.pdb
