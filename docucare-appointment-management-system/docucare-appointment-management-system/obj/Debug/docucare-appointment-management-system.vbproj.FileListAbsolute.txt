@@ -9,3 +9,6 @@ C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docuca
 C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.exe
 C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.xml
 C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.pdb
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.exe.config
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.Main_Menu.resources
+C:\Users\Winblows 11\Documents\OOP\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.Startup_Fade.resources

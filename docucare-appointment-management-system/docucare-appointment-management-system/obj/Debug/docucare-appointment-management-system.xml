@@ -22,5 +22,30 @@ docucare-appointment-management-system
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:docucare_appointment_management_system.My.Resources.Resources.banner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:docucare_appointment_management_system.My.Resources.Resources.bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:docucare_appointment_management_system.My.Resources.Resources.bg_alt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:docucare_appointment_management_system.My.Resources.Resources.Doc_U_Care">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:docucare_appointment_management_system.My.Resources.Resources.menu_buttons">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
