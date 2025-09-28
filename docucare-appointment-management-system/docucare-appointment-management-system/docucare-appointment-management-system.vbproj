@@ -79,6 +79,12 @@
     <Compile Include="AddPatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ConsultationForm.Designer.vb">
+      <DependentUpon>ConsultationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.Designer.vb">
       <DependentUpon>MainForm.vb</DependentUpon>
     </Compile>
@@ -96,6 +102,12 @@
     </Compile>
     <Compile Include="Main_Menu.Designer.vb">
       <DependentUpon>Main_Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prescriptions.Designer.vb">
+      <DependentUpon>Prescriptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prescriptions.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Startup_Fade.Designer.vb">
@@ -137,6 +149,9 @@
     <EmbeddedResource Include="AddPatient.resx">
       <DependentUpon>AddPatient.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsultationForm.resx">
+      <DependentUpon>ConsultationForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PatientInfo.resx">
       <DependentUpon>PatientInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescriptions.resx">
+      <DependentUpon>Prescriptions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Startup_Fade.resx">
       <DependentUpon>Startup_Fade.vb</DependentUpon>
@@ -167,6 +185,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\DataSources\Prescriptions.datasource" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>

@@ -53,4 +53,8 @@
         'for testing only
         PatientInfo.Show()
     End Sub
+
+    Private Sub MM_ApptBtn_Click(sender As Object, e As EventArgs) Handles MM_ApptBtn.Click
+
+    End Sub
 End Class

@@ -183,12 +183,12 @@ Partial Class UcMainMenu
         Me.MM_Title.TabIndex = 1
         Me.MM_Title.TabStop = False
         '
-        'UserControl1
+        'UcMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.MM_Panel)
-        Me.Name = "UserControl1"
+        Me.Name = "UcMainMenu"
         Me.Size = New System.Drawing.Size(784, 501)
         Me.MM_Panel.ResumeLayout(False)
         Me.MM_RPanel.ResumeLayout(False)

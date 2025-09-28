@@ -31,3 +31,5 @@ C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appo
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.MainForm.resources
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.UcMainMenu.resources
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.UcPatientInfo.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.ConsultationForm.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.Prescriptions.resources

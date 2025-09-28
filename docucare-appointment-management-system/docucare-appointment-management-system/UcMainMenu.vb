@@ -63,4 +63,7 @@
         MainContentPanel.Controls.Add(addPatientInfo)
     End Sub
 
+    Private Sub MM_ApptBtn_Click(sender As Object, e As EventArgs) Handles MM_ApptBtn.Click
+        ConsultationForm.Show()
+    End Sub
 End Class

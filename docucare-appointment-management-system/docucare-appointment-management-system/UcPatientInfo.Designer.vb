@@ -23,10 +23,10 @@ Partial Class UcPatientInfo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PatientInfoPanel = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Patient = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -47,8 +47,10 @@ Partial Class UcPatientInfo
         Me.Billing = New System.Windows.Forms.TabPage()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.NavbarMenu = New System.Windows.Forms.Button()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.PatientInfoPanel.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.Patient.SuspendLayout()
@@ -63,6 +65,8 @@ Partial Class UcPatientInfo
         'PatientInfoPanel
         '
         Me.PatientInfoPanel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PatientInfoPanel.Controls.Add(Me.Label15)
+        Me.PatientInfoPanel.Controls.Add(Me.Label14)
         Me.PatientInfoPanel.Controls.Add(Me.Button1)
         Me.PatientInfoPanel.Controls.Add(Me.TabControl1)
         Me.PatientInfoPanel.Controls.Add(Me.PictureBox2)
@@ -70,6 +74,21 @@ Partial Class UcPatientInfo
         Me.PatientInfoPanel.Name = "PatientInfoPanel"
         Me.PatientInfoPanel.Size = New System.Drawing.Size(784, 400)
         Me.PatientInfoPanel.TabIndex = 3
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button1.Location = New System.Drawing.Point(310, 355)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(293, 36)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Edit Info"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'TabControl1
         '
@@ -102,21 +121,6 @@ Partial Class UcPatientInfo
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(670, 316)
         Me.Panel3.TabIndex = 6
-        '
-        'Button1
-        '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button1.Location = New System.Drawing.Point(310, 355)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(293, 36)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Edit Info"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'TableLayoutPanel2
         '
@@ -352,6 +356,16 @@ Partial Class UcPatientInfo
         Me.Panel1.Size = New System.Drawing.Size(781, 38)
         Me.Panel1.TabIndex = 5
         '
+        'NavbarMenu
+        '
+        Me.NavbarMenu.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.NavbarMenu.Location = New System.Drawing.Point(700, 3)
+        Me.NavbarMenu.Name = "NavbarMenu"
+        Me.NavbarMenu.Size = New System.Drawing.Size(75, 29)
+        Me.NavbarMenu.TabIndex = 6
+        Me.NavbarMenu.Text = "Menu"
+        Me.NavbarMenu.UseVisualStyleBackColor = True
+        '
         'PictureBox3
         '
         Me.PictureBox3.BackgroundImage = Global.docucare_appointment_management_system.My.Resources.Resources.banner
@@ -363,15 +377,27 @@ Partial Class UcPatientInfo
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
         '
-        'NavbarMenu
+        'Label14
         '
-        Me.NavbarMenu.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.NavbarMenu.Location = New System.Drawing.Point(700, 3)
-        Me.NavbarMenu.Name = "NavbarMenu"
-        Me.NavbarMenu.Size = New System.Drawing.Size(75, 29)
-        Me.NavbarMenu.TabIndex = 6
-        Me.NavbarMenu.Text = "Menu"
-        Me.NavbarMenu.UseVisualStyleBackColor = True
+        Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(6, 106)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(57, 13)
+        Me.Label14.TabIndex = 7
+        Me.Label14.Text = "Patient ID:"
+        '
+        'Label15
+        '
+        Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(60, 106)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(49, 13)
+        Me.Label15.TabIndex = 8
+        Me.Label15.Text = "ABC-001"
         '
         'UcPatientInfo
         '
@@ -384,6 +410,7 @@ Partial Class UcPatientInfo
         Me.Name = "UcPatientInfo"
         Me.Size = New System.Drawing.Size(784, 501)
         Me.PatientInfoPanel.ResumeLayout(False)
+        Me.PatientInfoPanel.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.Patient.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
@@ -425,4 +452,6 @@ Partial Class UcPatientInfo
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents NavbarMenu As Button
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
 End Class
