@@ -1,6 +1,4 @@
 ﻿Public Class Main_Menu
-
-
     Private Sub Main_Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         StartupAnimation()
     End Sub
@@ -49,5 +47,10 @@
         If result = DialogResult.Yes Then
             Application.Exit()
         End If
+    End Sub
+
+    Private Sub MM_RecordsBtn_Click(sender As Object, e As EventArgs) Handles MM_RecordsBtn.Click
+        'for testing only
+        PatientInfo.Show()
     End Sub
 End Class

@@ -300,7 +300,7 @@ Partial Class AddPatient
         Me.Controls.Add(Me.FirstName)
         Me.Controls.Add(Me.Label1)
         Me.Name = "AddPatient"
-        Me.Text = "AddPatient"
+        Me.Text = "Add New Patient Profile"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

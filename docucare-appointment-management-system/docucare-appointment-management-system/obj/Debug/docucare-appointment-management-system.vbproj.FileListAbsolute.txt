@@ -27,3 +27,7 @@ C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appo
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.xml
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare-appointment-management-system.pdb
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.AddPatient.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.PatientInfo.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.MainForm.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.UcMainMenu.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.UcPatientInfo.resources

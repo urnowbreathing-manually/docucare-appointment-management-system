@@ -79,6 +79,18 @@
     <Compile Include="AddPatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInfo.Designer.vb">
+      <DependentUpon>PatientInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -107,13 +120,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UcMainMenu.Designer.vb">
+      <DependentUpon>UcMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcMainMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPatientInfo.Designer.vb">
+      <DependentUpon>UcPatientInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcPatientInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddPatient.resx">
       <DependentUpon>AddPatient.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main_Menu.resx">
       <DependentUpon>Main_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInfo.resx">
+      <DependentUpon>PatientInfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Startup_Fade.resx">
       <DependentUpon>Startup_Fade.vb</DependentUpon>
@@ -123,6 +154,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcMainMenu.resx">
+      <DependentUpon>UcMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPatientInfo.resx">
+      <DependentUpon>UcPatientInfo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\menu_buttons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient-profile-template.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
