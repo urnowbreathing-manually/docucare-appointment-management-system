@@ -29,5 +29,11 @@
         End If
     End Sub
 
+    Private Sub MM_NewBtn_Click(sender As Object, e As EventArgs) Handles MM_NewBtn.Click
+        AddPatient.Show()
+    End Sub
 
+    Private Sub MM_Panel_Paint(sender As Object, e As PaintEventArgs) Handles MM_Panel.Paint
+
+    End Sub
 End Class
