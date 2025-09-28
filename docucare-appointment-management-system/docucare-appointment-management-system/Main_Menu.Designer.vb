@@ -64,7 +64,7 @@ Partial Class Main_Menu
         '
         Me.MM_RPanel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.MM_RPanel.BackColor = System.Drawing.Color.Transparent
+        Me.MM_RPanel.BackColor = System.Drawing.Color.WhiteSmoke
         Me.MM_RPanel.Controls.Add(Me.MM_Dashboard)
         Me.MM_RPanel.Controls.Add(Me.MM_Calendar)
         Me.MM_RPanel.Location = New System.Drawing.Point(557, 0)
@@ -95,7 +95,7 @@ Partial Class Main_Menu
         '
         Me.MM_LPanel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.MM_LPanel.BackColor = System.Drawing.Color.Transparent
+        Me.MM_LPanel.BackColor = System.Drawing.Color.WhiteSmoke
         Me.MM_LPanel.Controls.Add(Me.MM_Buttons)
         Me.MM_LPanel.Controls.Add(Me.MM_Title)
         Me.MM_LPanel.Location = New System.Drawing.Point(0, 0)

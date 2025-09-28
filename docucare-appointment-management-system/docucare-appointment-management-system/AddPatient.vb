@@ -167,7 +167,7 @@
 
         ' Validate EMERGENyc Contact Number must be 11
         If String.IsNullOrWhiteSpace(EmergencyContact.Text) Then
-            MessageBox.Show("Contact no. is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            MessageBox.Show("Emergency Contact no. is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             EmergencyContact.Focus()
             Exit Sub
         End If
@@ -273,5 +273,17 @@
 
         ' Keep cursor at the end
         tb.SelectionStart = tb.Text.Length
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim result As DialogResult = MessageBox.Show(
+        "Are you sure you want to cancel? Any unsaved information will be lost.",
+        "Exit Application",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Warning
+    )
+        If result = DialogResult.Yes Then
+            Me.Close() ' closes the Add Patient form
+        End If
     End Sub
 End Class

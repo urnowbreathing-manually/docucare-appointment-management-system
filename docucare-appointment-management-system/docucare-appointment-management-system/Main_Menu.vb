@@ -36,4 +36,18 @@
     Private Sub MM_Panel_Paint(sender As Object, e As PaintEventArgs) Handles MM_Panel.Paint
 
     End Sub
+
+    Private Sub MM_QuitBtn_Click(sender As Object, e As EventArgs) Handles MM_QuitBtn.Click
+        ' Confirm before exitin
+        Dim result As DialogResult = MessageBox.Show(
+        "Are you sure you want to quit?",
+        "Exit Application",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Question
+    )
+
+        If result = DialogResult.Yes Then
+            Application.Exit()
+        End If
+    End Sub
 End Class
