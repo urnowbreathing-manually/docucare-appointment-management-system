@@ -79,6 +79,12 @@
     <Compile Include="AddPatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Billing.Designer.vb">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ConsultationForm.Designer.vb">
       <DependentUpon>ConsultationForm.vb</DependentUpon>
     </Compile>
@@ -153,6 +159,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AddPatient.resx">
       <DependentUpon>AddPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultationForm.resx">
       <DependentUpon>ConsultationForm.vb</DependentUpon>
