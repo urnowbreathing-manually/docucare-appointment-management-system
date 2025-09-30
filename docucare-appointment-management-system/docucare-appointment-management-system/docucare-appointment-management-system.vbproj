@@ -91,12 +91,6 @@
     <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PatientInfo.Designer.vb">
-      <DependentUpon>PatientInfo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PatientInfo.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="UcHistory.Designer.vb">
       <DependentUpon>UcHistory.vb</DependentUpon>
     </Compile>
@@ -165,9 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PatientInfo.resx">
-      <DependentUpon>PatientInfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Prescriptions.resx">
       <DependentUpon>Prescriptions.vb</DependentUpon>
