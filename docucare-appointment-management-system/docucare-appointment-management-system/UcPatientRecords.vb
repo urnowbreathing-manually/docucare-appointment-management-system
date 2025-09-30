@@ -12,4 +12,8 @@
         addMainMenu.Dock = DockStyle.Fill
         MainContentPanel.Controls.Add(addMainMenu)
     End Sub
+
+    Private Sub PatientInfoPanel_Paint(sender As Object, e As PaintEventArgs) Handles PatientInfoPanel.Paint
+
+    End Sub
 End Class
