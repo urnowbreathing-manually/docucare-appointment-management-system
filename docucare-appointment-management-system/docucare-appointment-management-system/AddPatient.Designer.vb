@@ -63,14 +63,14 @@ Partial Class AddPatient
         Me.FirstName.Location = New System.Drawing.Point(28, 61)
         Me.FirstName.Name = "FirstName"
         Me.FirstName.Size = New System.Drawing.Size(368, 20)
-        Me.FirstName.TabIndex = 1
+        Me.FirstName.TabIndex = 0
         '
         'LastName
         '
         Me.LastName.Location = New System.Drawing.Point(28, 114)
         Me.LastName.Name = "LastName"
         Me.LastName.Size = New System.Drawing.Size(368, 20)
-        Me.LastName.TabIndex = 3
+        Me.LastName.TabIndex = 1
         '
         'Label2
         '
@@ -86,7 +86,7 @@ Partial Class AddPatient
         Me.Age.Location = New System.Drawing.Point(28, 169)
         Me.Age.Name = "Age"
         Me.Age.Size = New System.Drawing.Size(33, 20)
-        Me.Age.TabIndex = 5
+        Me.Age.TabIndex = 2
         '
         'Label3
         '
@@ -113,7 +113,7 @@ Partial Class AddPatient
         Me.Gender.Location = New System.Drawing.Point(78, 168)
         Me.Gender.Name = "Gender"
         Me.Gender.Size = New System.Drawing.Size(122, 21)
-        Me.Gender.TabIndex = 7
+        Me.Gender.TabIndex = 3
         '
         'ContactNum
         '
@@ -136,7 +136,7 @@ Partial Class AddPatient
         Me.Allergies.Location = New System.Drawing.Point(28, 272)
         Me.Allergies.Name = "Allergies"
         Me.Allergies.Size = New System.Drawing.Size(368, 20)
-        Me.Allergies.TabIndex = 11
+        Me.Allergies.TabIndex = 7
         '
         'Label6
         '
@@ -159,7 +159,7 @@ Partial Class AddPatient
         Me.Save.Location = New System.Drawing.Point(28, 515)
         Me.Save.Name = "Save"
         Me.Save.Size = New System.Drawing.Size(200, 35)
-        Me.Save.TabIndex = 12
+        Me.Save.TabIndex = 11
         Me.Save.Text = "Save"
         Me.Save.UseVisualStyleBackColor = False
         '
@@ -175,7 +175,7 @@ Partial Class AddPatient
         Me.Button2.Location = New System.Drawing.Point(235, 515)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(161, 35)
-        Me.Button2.TabIndex = 13
+        Me.Button2.TabIndex = 12
         Me.Button2.Text = "Cancel"
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -184,7 +184,7 @@ Partial Class AddPatient
         Me.Height.Location = New System.Drawing.Point(222, 169)
         Me.Height.Name = "Height"
         Me.Height.Size = New System.Drawing.Size(72, 20)
-        Me.Height.TabIndex = 15
+        Me.Height.TabIndex = 4
         '
         'Label7
         '
@@ -208,7 +208,7 @@ Partial Class AddPatient
         Me.Weight.Location = New System.Drawing.Point(319, 169)
         Me.Weight.Name = "Weight"
         Me.Weight.Size = New System.Drawing.Size(74, 20)
-        Me.Weight.TabIndex = 18
+        Me.Weight.TabIndex = 5
         '
         'Weigh
         '
@@ -226,7 +226,7 @@ Partial Class AddPatient
         Me.BloodType.Location = New System.Drawing.Point(28, 220)
         Me.BloodType.Name = "BloodType"
         Me.BloodType.Size = New System.Drawing.Size(122, 21)
-        Me.BloodType.TabIndex = 20
+        Me.BloodType.TabIndex = 6
         '
         'Label10
         '
@@ -242,7 +242,7 @@ Partial Class AddPatient
         Me.EmergencyContact.Location = New System.Drawing.Point(28, 438)
         Me.EmergencyContact.Name = "EmergencyContact"
         Me.EmergencyContact.Size = New System.Drawing.Size(368, 20)
-        Me.EmergencyContact.TabIndex = 22
+        Me.EmergencyContact.TabIndex = 10
         '
         'Label11
         '
@@ -258,7 +258,7 @@ Partial Class AddPatient
         Me.MedicalConditions.Location = New System.Drawing.Point(28, 328)
         Me.MedicalConditions.Name = "MedicalConditions"
         Me.MedicalConditions.Size = New System.Drawing.Size(368, 20)
-        Me.MedicalConditions.TabIndex = 24
+        Me.MedicalConditions.TabIndex = 8
         '
         'Label12
         '

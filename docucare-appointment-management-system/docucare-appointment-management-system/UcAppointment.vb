@@ -7,10 +7,17 @@
         InitializeComponent()
         MainContentPanel = parent
     End Sub
+
+    Private Sub UcAppointment_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    End Sub
+
     Private Sub NavbarMenu_Click(sender As Object, e As EventArgs) Handles NavbarMenu.Click
         MainContentPanel.Controls.Clear()
         Dim addMainMenu As New UcMainMenu(MainContentPanel)
         addMainMenu.Dock = DockStyle.Fill
         MainContentPanel.Controls.Add(addMainMenu)
     End Sub
+
+
 End Class

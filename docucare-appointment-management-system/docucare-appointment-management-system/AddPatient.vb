@@ -1,4 +1,8 @@
-﻿Public Class AddPatient
+﻿Imports System.Security.Cryptography.X509Certificates
+
+Public Class AddPatient
+
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Gender.Items.Clear()
         Gender.Items.Add("Male")
@@ -185,9 +189,14 @@
         Dim weightVal As String = Weight.Text
         Dim gender As String = Me.Gender.SelectedItem.ToString()
         Dim contact As String = ContactNum.Text
+        Dim emcontact As String = EmergencyContact.Text
         Dim bloodTypeVal As String = BloodType.Text
         Dim allergiesVal As String = If(String.IsNullOrWhiteSpace(Allergies.Text), "N/A", Allergies.Text)
         Dim medConditionVal As String = If(String.IsNullOrWhiteSpace(MedicalConditions.Text), "N/A", MedicalConditions.Text)
+
+
+        UcMainMenu.patientInfo = UcMainMenu.patientInfo.Join("|", fname, lname, ageVal, heightVal, weightVal, gender, contact, emcontact, bloodTypeVal, allergiesVal, medConditionVal)
+        MsgBox(UcMainMenu.patientInfo)
 
 
         ' SAve message
@@ -198,15 +207,18 @@
                 "Height: " & heightVal & vbCrLf &
                 "Weight: " & weightVal & vbCrLf &
                 "Contact: " & contact & vbCrLf &
+                "Contact: " & emcontact & vbCrLf &
                 "Blood Type: " & bloodTypeVal & vbCrLf &
                 "Allergies: " & allergiesVal & vbCrLf &
                 "Medical Conditions: " & medConditionVal,
                 "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
         Me.Close()
-    End Sub
 
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        UcMainMenu.MainContentPanel.Controls.Clear()
+        Dim patientInfo As New UcPatientInfo(UcMainMenu.MainContentPanel)
+        patientInfo.Dock = DockStyle.Fill
+        UcMainMenu.MainContentPanel.Controls.Add(patientInfo)
 
     End Sub
 
@@ -231,18 +243,6 @@
         End If
 
         Dim selectedBloodType As String = BloodType.SelectedItem.ToString()
-    End Sub
-
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Gender.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub Allergies_TextChanged(sender As Object, e As EventArgs) Handles Allergies.TextChanged
-
-    End Sub
-
-    Private Sub MedicalConditions_TextChanged(sender As Object, e As EventArgs) Handles MedicalConditions.TextChanged
-
     End Sub
 
     Private Sub EmergencyContact_TextChanged(sender As Object, e As EventArgs) Handles EmergencyContact.TextChanged
@@ -286,4 +286,7 @@
             Me.Close() ' closes the Add Patient form
         End If
     End Sub
+
+
+
 End Class

@@ -23,12 +23,22 @@ Partial Class UcAppointment
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.NavbarMenu = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PatientInfoPanel = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.AppointmentID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PatientID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PatientName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DateSched = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TimeSched = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AppointmentType = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PatientInfoPanel.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -41,6 +51,16 @@ Partial Class UcAppointment
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(784, 38)
         Me.Panel1.TabIndex = 6
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(331, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(108, 20)
+        Me.Label1.TabIndex = 12
+        Me.Label1.Text = "Appointments"
         '
         'NavbarMenu
         '
@@ -66,20 +86,59 @@ Partial Class UcAppointment
         'PatientInfoPanel
         '
         Me.PatientInfoPanel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PatientInfoPanel.Controls.Add(Me.MonthCalendar1)
+        Me.PatientInfoPanel.Controls.Add(Me.DataGridView1)
         Me.PatientInfoPanel.Location = New System.Drawing.Point(0, 101)
         Me.PatientInfoPanel.Name = "PatientInfoPanel"
         Me.PatientInfoPanel.Size = New System.Drawing.Size(784, 400)
         Me.PatientInfoPanel.TabIndex = 7
         '
-        'Label1
+        'MonthCalendar1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(331, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(108, 20)
-        Me.Label1.TabIndex = 12
-        Me.Label1.Text = "Appointments"
+        Me.MonthCalendar1.Location = New System.Drawing.Point(548, 9)
+        Me.MonthCalendar1.Name = "MonthCalendar1"
+        Me.MonthCalendar1.TabIndex = 1
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AllowUserToResizeColumns = False
+        Me.DataGridView1.AllowUserToResizeRows = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.AppointmentID, Me.PatientID, Me.PatientName, Me.DateSched, Me.TimeSched, Me.AppointmentType})
+        Me.DataGridView1.Location = New System.Drawing.Point(9, 9)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(527, 382)
+        Me.DataGridView1.TabIndex = 2
+        '
+        'AppointmentID
+        '
+        Me.AppointmentID.HeaderText = "AppointmentID"
+        Me.AppointmentID.Name = "AppointmentID"
+        '
+        'PatientID
+        '
+        Me.PatientID.HeaderText = "PatientID"
+        Me.PatientID.Name = "PatientID"
+        '
+        'PatientName
+        '
+        Me.PatientName.HeaderText = "PatientName"
+        Me.PatientName.Name = "PatientName"
+        '
+        'DateSched
+        '
+        Me.DateSched.HeaderText = "DateSched"
+        Me.DateSched.Name = "DateSched"
+        '
+        'TimeSched
+        '
+        Me.TimeSched.HeaderText = "TimeSched"
+        Me.TimeSched.Name = "TimeSched"
+        '
+        'AppointmentType
+        '
+        Me.AppointmentType.HeaderText = "AppointmentType"
+        Me.AppointmentType.Name = "AppointmentType"
         '
         'UcAppointment
         '
@@ -94,6 +153,8 @@ Partial Class UcAppointment
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PatientInfoPanel.ResumeLayout(False)
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -103,4 +164,12 @@ Partial Class UcAppointment
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PatientInfoPanel As Panel
     Friend WithEvents Label1 As Label
+    Friend WithEvents MonthCalendar1 As MonthCalendar
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents AppointmentID As DataGridViewTextBoxColumn
+    Friend WithEvents PatientID As DataGridViewTextBoxColumn
+    Friend WithEvents PatientName As DataGridViewTextBoxColumn
+    Friend WithEvents DateSched As DataGridViewTextBoxColumn
+    Friend WithEvents TimeSched As DataGridViewTextBoxColumn
+    Friend WithEvents AppointmentType As DataGridViewTextBoxColumn
 End Class

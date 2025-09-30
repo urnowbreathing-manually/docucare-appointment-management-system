@@ -1,7 +1,8 @@
 ﻿Public Class UcMainMenu
     Inherits UserControl
+    Public Shared patientInfo As String = ""
 
-    Private MainContentPanel As Panel
+    Public Shared MainContentPanel As Panel
     ' Constructor receives parent panel
     Public Sub New(parent As Panel)
         InitializeComponent()
