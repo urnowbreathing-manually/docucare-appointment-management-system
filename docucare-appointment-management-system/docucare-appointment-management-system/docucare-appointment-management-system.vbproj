@@ -104,6 +104,18 @@
       <DependentUpon>Main_Menu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UcHistory.Designer.vb">
+      <DependentUpon>UcHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcHistory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcPatientRecords.Designer.vb">
+      <DependentUpon>UcPatientRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcPatientRecords.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Prescriptions.Designer.vb">
       <DependentUpon>Prescriptions.vb</DependentUpon>
     </Compile>
@@ -131,6 +143,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UcAppointment.Designer.vb">
+      <DependentUpon>UcAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcAppointment.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UcMainMenu.Designer.vb">
       <DependentUpon>UcMainMenu.vb</DependentUpon>
@@ -173,11 +191,20 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="UcAppointment.resx">
+      <DependentUpon>UcAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcHistory.resx">
+      <DependentUpon>UcHistory.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UcMainMenu.resx">
       <DependentUpon>UcMainMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UcPatientInfo.resx">
       <DependentUpon>UcPatientInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPatientRecords.resx">
+      <DependentUpon>UcPatientRecords.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

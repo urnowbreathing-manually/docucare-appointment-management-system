@@ -29,9 +29,9 @@ Partial Class UcMainMenu
         Me.MM_LPanel = New System.Windows.Forms.Panel()
         Me.MM_Buttons = New System.Windows.Forms.TableLayoutPanel()
         Me.MM_QuitBtn = New System.Windows.Forms.Button()
-        Me.MM_HistoryBtn = New System.Windows.Forms.Button()
-        Me.MM_ApptBtn = New System.Windows.Forms.Button()
-        Me.MM_RecordsBtn = New System.Windows.Forms.Button()
+        Me.HistoryBtn = New System.Windows.Forms.Button()
+        Me.AppointmentBtn = New System.Windows.Forms.Button()
+        Me.PatientRecordsBtn = New System.Windows.Forms.Button()
         Me.MM_NewBtn = New System.Windows.Forms.Button()
         Me.MM_Title = New System.Windows.Forms.PictureBox()
         Me.MM_Panel.SuspendLayout()
@@ -106,9 +106,9 @@ Partial Class UcMainMenu
         Me.MM_Buttons.ColumnCount = 1
         Me.MM_Buttons.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.MM_Buttons.Controls.Add(Me.MM_QuitBtn, 0, 4)
-        Me.MM_Buttons.Controls.Add(Me.MM_HistoryBtn, 0, 3)
-        Me.MM_Buttons.Controls.Add(Me.MM_ApptBtn, 0, 2)
-        Me.MM_Buttons.Controls.Add(Me.MM_RecordsBtn, 0, 1)
+        Me.MM_Buttons.Controls.Add(Me.HistoryBtn, 0, 3)
+        Me.MM_Buttons.Controls.Add(Me.AppointmentBtn, 0, 2)
+        Me.MM_Buttons.Controls.Add(Me.PatientRecordsBtn, 0, 1)
         Me.MM_Buttons.Controls.Add(Me.MM_NewBtn, 0, 0)
         Me.MM_Buttons.Location = New System.Drawing.Point(0, 117)
         Me.MM_Buttons.Name = "MM_Buttons"
@@ -132,35 +132,35 @@ Partial Class UcMainMenu
         Me.MM_QuitBtn.Text = "Quit to Desktop"
         Me.MM_QuitBtn.UseVisualStyleBackColor = True
         '
-        'MM_HistoryBtn
+        'HistoryBtn
         '
-        Me.MM_HistoryBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.MM_HistoryBtn.Location = New System.Drawing.Point(20, 141)
-        Me.MM_HistoryBtn.Name = "MM_HistoryBtn"
-        Me.MM_HistoryBtn.Size = New System.Drawing.Size(186, 39)
-        Me.MM_HistoryBtn.TabIndex = 3
-        Me.MM_HistoryBtn.Text = "History"
-        Me.MM_HistoryBtn.UseVisualStyleBackColor = True
+        Me.HistoryBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.HistoryBtn.Location = New System.Drawing.Point(20, 141)
+        Me.HistoryBtn.Name = "HistoryBtn"
+        Me.HistoryBtn.Size = New System.Drawing.Size(186, 39)
+        Me.HistoryBtn.TabIndex = 3
+        Me.HistoryBtn.Text = "History"
+        Me.HistoryBtn.UseVisualStyleBackColor = True
         '
-        'MM_ApptBtn
+        'AppointmentBtn
         '
-        Me.MM_ApptBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.MM_ApptBtn.Location = New System.Drawing.Point(20, 95)
-        Me.MM_ApptBtn.Name = "MM_ApptBtn"
-        Me.MM_ApptBtn.Size = New System.Drawing.Size(186, 39)
-        Me.MM_ApptBtn.TabIndex = 2
-        Me.MM_ApptBtn.Text = "Appointments"
-        Me.MM_ApptBtn.UseVisualStyleBackColor = True
+        Me.AppointmentBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.AppointmentBtn.Location = New System.Drawing.Point(20, 95)
+        Me.AppointmentBtn.Name = "AppointmentBtn"
+        Me.AppointmentBtn.Size = New System.Drawing.Size(186, 39)
+        Me.AppointmentBtn.TabIndex = 2
+        Me.AppointmentBtn.Text = "Appointments"
+        Me.AppointmentBtn.UseVisualStyleBackColor = True
         '
-        'MM_RecordsBtn
+        'PatientRecordsBtn
         '
-        Me.MM_RecordsBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.MM_RecordsBtn.Location = New System.Drawing.Point(20, 49)
-        Me.MM_RecordsBtn.Name = "MM_RecordsBtn"
-        Me.MM_RecordsBtn.Size = New System.Drawing.Size(186, 39)
-        Me.MM_RecordsBtn.TabIndex = 1
-        Me.MM_RecordsBtn.Text = "Patient Records"
-        Me.MM_RecordsBtn.UseVisualStyleBackColor = True
+        Me.PatientRecordsBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PatientRecordsBtn.Location = New System.Drawing.Point(20, 49)
+        Me.PatientRecordsBtn.Name = "PatientRecordsBtn"
+        Me.PatientRecordsBtn.Size = New System.Drawing.Size(186, 39)
+        Me.PatientRecordsBtn.TabIndex = 1
+        Me.PatientRecordsBtn.Text = "Patient Records"
+        Me.PatientRecordsBtn.UseVisualStyleBackColor = True
         '
         'MM_NewBtn
         '
@@ -207,9 +207,9 @@ Partial Class UcMainMenu
     Friend WithEvents MM_LPanel As Panel
     Friend WithEvents MM_Buttons As TableLayoutPanel
     Friend WithEvents MM_QuitBtn As Button
-    Friend WithEvents MM_HistoryBtn As Button
-    Friend WithEvents MM_ApptBtn As Button
-    Friend WithEvents MM_RecordsBtn As Button
+    Friend WithEvents HistoryBtn As Button
+    Friend WithEvents AppointmentBtn As Button
+    Friend WithEvents PatientRecordsBtn As Button
     Friend WithEvents MM_NewBtn As Button
     Friend WithEvents MM_Title As PictureBox
 End Class

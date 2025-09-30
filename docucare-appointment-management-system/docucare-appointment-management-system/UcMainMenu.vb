@@ -56,14 +56,28 @@
         End If
     End Sub
 
-    Private Sub MM_RecordsBtn_Click(sender As Object, e As EventArgs) Handles MM_RecordsBtn.Click
+    Private Sub PatientRecordsBtn_Click(sender As Object, e As EventArgs) Handles PatientRecordsBtn.Click
         MainContentPanel.Controls.Clear()
-        Dim addPatientInfo As New UcPatientInfo(MainContentPanel)
-        addPatientInfo.Dock = DockStyle.Fill
-        MainContentPanel.Controls.Add(addPatientInfo)
+        Dim patientRecords As New UcPatientRecords(MainContentPanel)
+        patientRecords.Dock = DockStyle.Fill
+        MainContentPanel.Controls.Add(patientRecords)
     End Sub
 
-    Private Sub MM_ApptBtn_Click(sender As Object, e As EventArgs) Handles MM_ApptBtn.Click
-        ConsultationForm.Show()
+    Private Sub AppointmentBtn_Click(sender As Object, e As EventArgs) Handles AppointmentBtn.Click
+        MainContentPanel.Controls.Clear()
+        Dim appointment As New UcAppointment(MainContentPanel)
+        appointment.Dock = DockStyle.Fill
+        MainContentPanel.Controls.Add(appointment)
+    End Sub
+
+    Private Sub MM_HistoryBtn_Click(sender As Object, e As EventArgs) Handles HistoryBtn.Click
+
+    End Sub
+
+    Private Sub HistoryBtn_Click(sender As Object, e As EventArgs) Handles HistoryBtn.Click
+        MainContentPanel.Controls.Clear()
+        Dim history As New UcHistory(MainContentPanel)
+        history.Dock = DockStyle.Fill
+        MainContentPanel.Controls.Add(history)
     End Sub
 End Class
