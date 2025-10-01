@@ -47,12 +47,14 @@ Partial Class AddPatient
         Me.Label11 = New System.Windows.Forms.Label()
         Me.MedicalConditions = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.MiddleName = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(25, 45)
+        Me.Label1.Location = New System.Drawing.Point(25, 16)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(60, 13)
         Me.Label1.TabIndex = 0
@@ -60,22 +62,22 @@ Partial Class AddPatient
         '
         'FirstName
         '
-        Me.FirstName.Location = New System.Drawing.Point(28, 61)
+        Me.FirstName.Location = New System.Drawing.Point(28, 32)
         Me.FirstName.Name = "FirstName"
         Me.FirstName.Size = New System.Drawing.Size(368, 20)
         Me.FirstName.TabIndex = 0
         '
         'LastName
         '
-        Me.LastName.Location = New System.Drawing.Point(28, 114)
+        Me.LastName.Location = New System.Drawing.Point(28, 126)
         Me.LastName.Name = "LastName"
         Me.LastName.Size = New System.Drawing.Size(368, 20)
-        Me.LastName.TabIndex = 1
+        Me.LastName.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(25, 98)
+        Me.Label2.Location = New System.Drawing.Point(25, 110)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(61, 13)
         Me.Label2.TabIndex = 2
@@ -83,15 +85,15 @@ Partial Class AddPatient
         '
         'Age
         '
-        Me.Age.Location = New System.Drawing.Point(28, 169)
+        Me.Age.Location = New System.Drawing.Point(28, 181)
         Me.Age.Name = "Age"
         Me.Age.Size = New System.Drawing.Size(33, 20)
-        Me.Age.TabIndex = 2
+        Me.Age.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(25, 153)
+        Me.Label3.Location = New System.Drawing.Point(25, 165)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(29, 13)
         Me.Label3.TabIndex = 4
@@ -100,7 +102,7 @@ Partial Class AddPatient
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(75, 153)
+        Me.Label4.Location = New System.Drawing.Point(75, 165)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(45, 13)
         Me.Label4.TabIndex = 6
@@ -110,22 +112,22 @@ Partial Class AddPatient
         '
         Me.Gender.FormattingEnabled = True
         Me.Gender.Items.AddRange(New Object() {"Male", "Female"})
-        Me.Gender.Location = New System.Drawing.Point(78, 168)
+        Me.Gender.Location = New System.Drawing.Point(78, 180)
         Me.Gender.Name = "Gender"
         Me.Gender.Size = New System.Drawing.Size(122, 21)
-        Me.Gender.TabIndex = 3
+        Me.Gender.TabIndex = 4
         '
         'ContactNum
         '
-        Me.ContactNum.Location = New System.Drawing.Point(28, 382)
+        Me.ContactNum.Location = New System.Drawing.Point(28, 394)
         Me.ContactNum.Name = "ContactNum"
         Me.ContactNum.Size = New System.Drawing.Size(368, 20)
-        Me.ContactNum.TabIndex = 9
+        Me.ContactNum.TabIndex = 10
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(25, 366)
+        Me.Label5.Location = New System.Drawing.Point(25, 378)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(67, 13)
         Me.Label5.TabIndex = 8
@@ -133,15 +135,15 @@ Partial Class AddPatient
         '
         'Allergies
         '
-        Me.Allergies.Location = New System.Drawing.Point(28, 272)
+        Me.Allergies.Location = New System.Drawing.Point(28, 284)
         Me.Allergies.Name = "Allergies"
         Me.Allergies.Size = New System.Drawing.Size(368, 20)
-        Me.Allergies.TabIndex = 7
+        Me.Allergies.TabIndex = 8
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(25, 256)
+        Me.Label6.Location = New System.Drawing.Point(25, 268)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(83, 13)
         Me.Label6.TabIndex = 10
@@ -159,7 +161,7 @@ Partial Class AddPatient
         Me.Save.Location = New System.Drawing.Point(28, 515)
         Me.Save.Name = "Save"
         Me.Save.Size = New System.Drawing.Size(200, 35)
-        Me.Save.TabIndex = 11
+        Me.Save.TabIndex = 12
         Me.Save.Text = "Save"
         Me.Save.UseVisualStyleBackColor = False
         '
@@ -175,21 +177,21 @@ Partial Class AddPatient
         Me.Button2.Location = New System.Drawing.Point(235, 515)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(161, 35)
-        Me.Button2.TabIndex = 12
+        Me.Button2.TabIndex = 13
         Me.Button2.Text = "Cancel"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Height
         '
-        Me.Height.Location = New System.Drawing.Point(222, 169)
+        Me.Height.Location = New System.Drawing.Point(222, 181)
         Me.Height.Name = "Height"
         Me.Height.Size = New System.Drawing.Size(72, 20)
-        Me.Height.TabIndex = 4
+        Me.Height.TabIndex = 5
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(219, 153)
+        Me.Label7.Location = New System.Drawing.Point(219, 165)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(75, 13)
         Me.Label7.TabIndex = 14
@@ -198,22 +200,22 @@ Partial Class AddPatient
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(277, 153)
+        Me.Label8.Location = New System.Drawing.Point(277, 165)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(0, 13)
         Me.Label8.TabIndex = 16
         '
         'Weight
         '
-        Me.Weight.Location = New System.Drawing.Point(319, 169)
+        Me.Weight.Location = New System.Drawing.Point(319, 181)
         Me.Weight.Name = "Weight"
         Me.Weight.Size = New System.Drawing.Size(74, 20)
-        Me.Weight.TabIndex = 5
+        Me.Weight.TabIndex = 6
         '
         'Weigh
         '
         Me.Weigh.AutoSize = True
-        Me.Weigh.Location = New System.Drawing.Point(316, 153)
+        Me.Weigh.Location = New System.Drawing.Point(316, 165)
         Me.Weigh.Name = "Weigh"
         Me.Weigh.Size = New System.Drawing.Size(76, 13)
         Me.Weigh.TabIndex = 17
@@ -223,15 +225,15 @@ Partial Class AddPatient
         '
         Me.BloodType.FormattingEnabled = True
         Me.BloodType.Items.AddRange(New Object() {"Male", "Female"})
-        Me.BloodType.Location = New System.Drawing.Point(28, 220)
+        Me.BloodType.Location = New System.Drawing.Point(28, 232)
         Me.BloodType.Name = "BloodType"
         Me.BloodType.Size = New System.Drawing.Size(122, 21)
-        Me.BloodType.TabIndex = 6
+        Me.BloodType.TabIndex = 7
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(25, 204)
+        Me.Label10.Location = New System.Drawing.Point(25, 216)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(64, 13)
         Me.Label10.TabIndex = 19
@@ -239,15 +241,15 @@ Partial Class AddPatient
         '
         'EmergencyContact
         '
-        Me.EmergencyContact.Location = New System.Drawing.Point(28, 438)
+        Me.EmergencyContact.Location = New System.Drawing.Point(28, 450)
         Me.EmergencyContact.Name = "EmergencyContact"
         Me.EmergencyContact.Size = New System.Drawing.Size(368, 20)
-        Me.EmergencyContact.TabIndex = 10
+        Me.EmergencyContact.TabIndex = 11
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(25, 422)
+        Me.Label11.Location = New System.Drawing.Point(25, 434)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(123, 13)
         Me.Label11.TabIndex = 21
@@ -255,25 +257,43 @@ Partial Class AddPatient
         '
         'MedicalConditions
         '
-        Me.MedicalConditions.Location = New System.Drawing.Point(28, 328)
+        Me.MedicalConditions.Location = New System.Drawing.Point(28, 340)
         Me.MedicalConditions.Name = "MedicalConditions"
         Me.MedicalConditions.Size = New System.Drawing.Size(368, 20)
-        Me.MedicalConditions.TabIndex = 8
+        Me.MedicalConditions.TabIndex = 9
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(25, 312)
+        Me.Label12.Location = New System.Drawing.Point(25, 324)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(133, 13)
         Me.Label12.TabIndex = 23
         Me.Label12.Text = "Medical Conditions (if any):"
+        '
+        'MiddleName
+        '
+        Me.MiddleName.Location = New System.Drawing.Point(28, 78)
+        Me.MiddleName.Name = "MiddleName"
+        Me.MiddleName.Size = New System.Drawing.Size(368, 20)
+        Me.MiddleName.TabIndex = 1
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(25, 62)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(72, 13)
+        Me.Label9.TabIndex = 25
+        Me.Label9.Text = "Middle Name:"
         '
         'AddPatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(428, 662)
+        Me.Controls.Add(Me.MiddleName)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.MedicalConditions)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.EmergencyContact)
@@ -331,4 +351,6 @@ Partial Class AddPatient
     Friend WithEvents Label11 As Label
     Friend WithEvents MedicalConditions As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents MiddleName As TextBox
+    Friend WithEvents Label9 As Label
 End Class

@@ -1,4 +1,5 @@
 ﻿Imports System.Security.Cryptography.X509Certificates
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class AddPatient
 
@@ -29,10 +30,6 @@ Public Class AddPatient
         BloodType.DropDownStyle = ComboBoxStyle.DropDownList
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
     Private Sub FirstName_TextChanged(sender As Object, e As EventArgs) Handles FirstName.TextChanged
         Dim tb As TextBox = DirectCast(sender, TextBox)
 
@@ -44,6 +41,16 @@ Public Class AddPatient
     End Sub
 
     Private Sub LastName_TextChanged(sender As Object, e As EventArgs) Handles LastName.TextChanged
+        Dim tb As TextBox = DirectCast(sender, TextBox)
+
+        ' Remove anything that's not a letter or space
+        tb.Text = System.Text.RegularExpressions.Regex.Replace(tb.Text, "[^a-zA-Z\s]", "")
+
+        ' Move cursor to the end (otherwise it jumps back)
+        tb.SelectionStart = tb.Text.Length
+    End Sub
+
+    Private Sub MiddleName_TextChanged(sender As Object, e As EventArgs) Handles MiddleName.TextChanged
         Dim tb As TextBox = DirectCast(sender, TextBox)
 
         ' Remove anything that's not a letter or space
@@ -183,6 +190,10 @@ Public Class AddPatient
 
         ' 
         Dim fname As String = FirstName.Text
+        Dim mname As String = ""
+        If Not (String.IsNullOrEmpty(MiddleName.Text)) Then
+            mname = MiddleName.Text
+        End If
         Dim lname As String = LastName.Text
         Dim ageVal As String = Age.Text
         Dim heightVal As String = Height.Text
@@ -195,13 +206,13 @@ Public Class AddPatient
         Dim medConditionVal As String = If(String.IsNullOrWhiteSpace(MedicalConditions.Text), "N/A", MedicalConditions.Text)
 
 
-        UcMainMenu.patientInfo = UcMainMenu.patientInfo.Join("|", fname, lname, ageVal, heightVal, weightVal, gender, contact, emcontact, bloodTypeVal, allergiesVal, medConditionVal)
+        UcMainMenu.patientInfo = UcMainMenu.patientInfo.Join("|", fname, mname, lname, ageVal, heightVal, weightVal, gender, contact, emcontact, bloodTypeVal, allergiesVal, medConditionVal)
         MsgBox(UcMainMenu.patientInfo)
 
 
         ' SAve message
         MessageBox.Show("Patient Saved Successfully!" & vbCrLf &
-                "Name: " & fname & " " & lname & vbCrLf &
+                "Name: " & fname & " " & mname & " " & lname & vbCrLf &
                 "Age: " & ageVal & vbCrLf &
                 "Gender: " & gender & vbCrLf &
                 "Height: " & heightVal & vbCrLf &
@@ -286,7 +297,6 @@ Public Class AddPatient
             Me.Close() ' closes the Add Patient form
         End If
     End Sub
-
 
 
 End Class

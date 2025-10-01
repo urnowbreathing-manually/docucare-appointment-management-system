@@ -32,7 +32,6 @@ Partial Class UcPatientInfo
         Me.Allergies_Lbl = New System.Windows.Forms.Label()
         Me.MedCond_Lbl = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.BloodType_Lbl = New System.Windows.Forms.Label()
         Me.Weight_Lbl = New System.Windows.Forms.Label()
         Me.Height_Lbl = New System.Windows.Forms.Label()
         Me.Lbl_Header2 = New System.Windows.Forms.Label()
@@ -49,6 +48,7 @@ Partial Class UcPatientInfo
         Me.Label16 = New System.Windows.Forms.Label()
         Me.NavbarMenu = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.BloodType_Lbl = New System.Windows.Forms.Label()
         Me.PatientInfoPanel.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.Patient.SuspendLayout()
@@ -193,17 +193,6 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(362, 316)
         Me.TableLayoutPanel1.TabIndex = 0
-        '
-        'BloodType_Lbl
-        '
-        Me.BloodType_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.BloodType_Lbl.AutoSize = True
-        Me.BloodType_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BloodType_Lbl.Location = New System.Drawing.Point(3, 291)
-        Me.BloodType_Lbl.Name = "BloodType_Lbl"
-        Me.BloodType_Lbl.Size = New System.Drawing.Size(64, 13)
-        Me.BloodType_Lbl.TabIndex = 9
-        Me.BloodType_Lbl.Text = "Blood Type:"
         '
         'Weight_Lbl
         '
@@ -372,6 +361,17 @@ Partial Class UcPatientInfo
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
         '
+        'BloodType_Lbl
+        '
+        Me.BloodType_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.BloodType_Lbl.AutoSize = True
+        Me.BloodType_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BloodType_Lbl.Location = New System.Drawing.Point(3, 291)
+        Me.BloodType_Lbl.Name = "BloodType_Lbl"
+        Me.BloodType_Lbl.Size = New System.Drawing.Size(64, 13)
+        Me.BloodType_Lbl.TabIndex = 9
+        Me.BloodType_Lbl.Text = "Blood Type:"
+        '
         'UcPatientInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -407,7 +407,6 @@ Partial Class UcPatientInfo
     Friend WithEvents Lbl_Header_3 As Label
     Friend WithEvents Allergies_Lbl As Label
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents BloodType_Lbl As Label
     Friend WithEvents Weight_Lbl As Label
     Friend WithEvents Height_Lbl As Label
     Friend WithEvents Lbl_Header2 As Label
@@ -424,4 +423,5 @@ Partial Class UcPatientInfo
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents NavbarMenu As Button
     Friend WithEvents Label16 As Label
+    Friend WithEvents BloodType_Lbl As Label
 End Class
