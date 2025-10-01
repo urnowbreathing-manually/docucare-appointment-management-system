@@ -23,45 +23,57 @@ Partial Class UcPatientInfo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PatientInfoPanel = New System.Windows.Forms.Panel()
-        Me.EditPatientBtn = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Patient = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.EditPatientBtn = New System.Windows.Forms.Button()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Lbl_Header_3 = New System.Windows.Forms.Label()
+        Me.Allergies_Lbl = New System.Windows.Forms.Label()
         Me.MedCond_Lbl = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.BloodType_Lbl = New System.Windows.Forms.Label()
+        Me.Weight_Lbl = New System.Windows.Forms.Label()
+        Me.Height_Lbl = New System.Windows.Forms.Label()
+        Me.Lbl_Header2 = New System.Windows.Forms.Label()
+        Me.EmContactNo_Lbl = New System.Windows.Forms.Label()
         Me.ContactNo_Lbl = New System.Windows.Forms.Label()
+        Me.Gender_Lbl = New System.Windows.Forms.Label()
         Me.Age_Lbl = New System.Windows.Forms.Label()
         Me.FullName_Lbl = New System.Windows.Forms.Label()
         Me.Lbl_Header1 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Consultation = New System.Windows.Forms.TabPage()
-        Me.Billing = New System.Windows.Forms.TabPage()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.NavbarMenu = New System.Windows.Forms.Button()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
+        Me.DataGridViewPrescriptions = New System.Windows.Forms.DataGridView()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Allergies_Lbl = New System.Windows.Forms.Label()
-        Me.BloodType_Lbl = New System.Windows.Forms.Label()
-        Me.Weight_Lbl = New System.Windows.Forms.Label()
-        Me.Height_Lbl = New System.Windows.Forms.Label()
-        Me.Gender_Lbl = New System.Windows.Forms.Label()
-        Me.Lbl_Header2 = New System.Windows.Forms.Label()
-        Me.EmContactNo_Lbl = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.DataGridViewPrescriptions = New System.Windows.Forms.DataGridView()
+        Me.Billing = New System.Windows.Forms.TabPage()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.NavbarMenu = New System.Windows.Forms.Button()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Description = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Quantity = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UnitPrice = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Subtotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PatientInfoPanel.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.Patient.SuspendLayout()
@@ -69,11 +81,16 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Consultation.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TableLayoutPanel3.SuspendLayout()
         Me.TableLayoutPanel4.SuspendLayout()
         CType(Me.DataGridViewPrescriptions, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TableLayoutPanel3.SuspendLayout()
+        Me.Billing.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TableLayoutPanel6.SuspendLayout()
+        Me.TableLayoutPanel5.SuspendLayout()
+        Me.TableLayoutPanel7.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PatientInfoPanel
@@ -84,21 +101,6 @@ Partial Class UcPatientInfo
         Me.PatientInfoPanel.Name = "PatientInfoPanel"
         Me.PatientInfoPanel.Size = New System.Drawing.Size(784, 400)
         Me.PatientInfoPanel.TabIndex = 3
-        '
-        'EditPatientBtn
-        '
-        Me.EditPatientBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.EditPatientBtn.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.EditPatientBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.EditPatientBtn.FlatAppearance.BorderSize = 0
-        Me.EditPatientBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EditPatientBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.EditPatientBtn.Location = New System.Drawing.Point(370, 271)
-        Me.EditPatientBtn.Name = "EditPatientBtn"
-        Me.EditPatientBtn.Size = New System.Drawing.Size(293, 36)
-        Me.EditPatientBtn.TabIndex = 6
-        Me.EditPatientBtn.Text = "Edit Info"
-        Me.EditPatientBtn.UseVisualStyleBackColor = False
         '
         'TabControl1
         '
@@ -133,6 +135,21 @@ Partial Class UcPatientInfo
         Me.Panel3.Size = New System.Drawing.Size(670, 316)
         Me.Panel3.TabIndex = 6
         '
+        'EditPatientBtn
+        '
+        Me.EditPatientBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.EditPatientBtn.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.EditPatientBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.EditPatientBtn.FlatAppearance.BorderSize = 0
+        Me.EditPatientBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EditPatientBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.EditPatientBtn.Location = New System.Drawing.Point(370, 271)
+        Me.EditPatientBtn.Name = "EditPatientBtn"
+        Me.EditPatientBtn.Size = New System.Drawing.Size(293, 36)
+        Me.EditPatientBtn.TabIndex = 6
+        Me.EditPatientBtn.Text = "Edit Info"
+        Me.EditPatientBtn.UseVisualStyleBackColor = False
+        '
         'TableLayoutPanel2
         '
         Me.TableLayoutPanel2.ColumnCount = 1
@@ -159,6 +176,16 @@ Partial Class UcPatientInfo
         Me.Lbl_Header_3.Size = New System.Drawing.Size(167, 20)
         Me.Lbl_Header_3.TabIndex = 1
         Me.Lbl_Header_3.Text = "Medical Information"
+        '
+        'Allergies_Lbl
+        '
+        Me.Allergies_Lbl.AutoSize = True
+        Me.Allergies_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Allergies_Lbl.Location = New System.Drawing.Point(3, 52)
+        Me.Allergies_Lbl.Name = "Allergies_Lbl"
+        Me.Allergies_Lbl.Size = New System.Drawing.Size(49, 13)
+        Me.Allergies_Lbl.TabIndex = 2
+        Me.Allergies_Lbl.Text = "Allergies:"
         '
         'MedCond_Lbl
         '
@@ -201,6 +228,61 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(362, 316)
         Me.TableLayoutPanel1.TabIndex = 0
         '
+        'BloodType_Lbl
+        '
+        Me.BloodType_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.BloodType_Lbl.AutoSize = True
+        Me.BloodType_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BloodType_Lbl.Location = New System.Drawing.Point(3, 291)
+        Me.BloodType_Lbl.Name = "BloodType_Lbl"
+        Me.BloodType_Lbl.Size = New System.Drawing.Size(64, 13)
+        Me.BloodType_Lbl.TabIndex = 9
+        Me.BloodType_Lbl.Text = "Blood Type:"
+        '
+        'Weight_Lbl
+        '
+        Me.Weight_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Weight_Lbl.AutoSize = True
+        Me.Weight_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Weight_Lbl.Location = New System.Drawing.Point(3, 257)
+        Me.Weight_Lbl.Name = "Weight_Lbl"
+        Me.Weight_Lbl.Size = New System.Drawing.Size(44, 13)
+        Me.Weight_Lbl.TabIndex = 8
+        Me.Weight_Lbl.Text = "Weight:"
+        '
+        'Height_Lbl
+        '
+        Me.Height_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Height_Lbl.AutoSize = True
+        Me.Height_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Height_Lbl.Location = New System.Drawing.Point(3, 226)
+        Me.Height_Lbl.Name = "Height_Lbl"
+        Me.Height_Lbl.Size = New System.Drawing.Size(41, 13)
+        Me.Height_Lbl.TabIndex = 7
+        Me.Height_Lbl.Text = "Height:"
+        '
+        'Lbl_Header2
+        '
+        Me.Lbl_Header2.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Lbl_Header2.AutoSize = True
+        Me.Lbl_Header2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lbl_Header2.Location = New System.Drawing.Point(3, 191)
+        Me.Lbl_Header2.Name = "Lbl_Header2"
+        Me.Lbl_Header2.Size = New System.Drawing.Size(159, 20)
+        Me.Lbl_Header2.TabIndex = 6
+        Me.Lbl_Header2.Text = "Health Information"
+        '
+        'EmContactNo_Lbl
+        '
+        Me.EmContactNo_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.EmContactNo_Lbl.AutoSize = True
+        Me.EmContactNo_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EmContactNo_Lbl.Location = New System.Drawing.Point(3, 164)
+        Me.EmContactNo_Lbl.Name = "EmContactNo_Lbl"
+        Me.EmContactNo_Lbl.Size = New System.Drawing.Size(123, 13)
+        Me.EmContactNo_Lbl.TabIndex = 5
+        Me.EmContactNo_Lbl.Text = "Emergency Contact No.:"
+        '
         'ContactNo_Lbl
         '
         Me.ContactNo_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
@@ -211,6 +293,17 @@ Partial Class UcPatientInfo
         Me.ContactNo_Lbl.Size = New System.Drawing.Size(67, 13)
         Me.ContactNo_Lbl.TabIndex = 4
         Me.ContactNo_Lbl.Text = "Contact No.:"
+        '
+        'Gender_Lbl
+        '
+        Me.Gender_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Gender_Lbl.AutoSize = True
+        Me.Gender_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Gender_Lbl.Location = New System.Drawing.Point(3, 102)
+        Me.Gender_Lbl.Name = "Gender_Lbl"
+        Me.Gender_Lbl.Size = New System.Drawing.Size(45, 13)
+        Me.Gender_Lbl.TabIndex = 3
+        Me.Gender_Lbl.Text = "Gender:"
         '
         'Age_Lbl
         '
@@ -230,9 +323,9 @@ Partial Class UcPatientInfo
         Me.FullName_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FullName_Lbl.Location = New System.Drawing.Point(3, 40)
         Me.FullName_Lbl.Name = "FullName_Lbl"
-        Me.FullName_Lbl.Size = New System.Drawing.Size(57, 13)
+        Me.FullName_Lbl.Size = New System.Drawing.Size(74, 13)
         Me.FullName_Lbl.TabIndex = 1
-        Me.FullName_Lbl.Text = "Full Name:"
+        Me.FullName_Lbl.Text = "Patient Name:"
         '
         'Lbl_Header1
         '
@@ -264,56 +357,54 @@ Partial Class UcPatientInfo
         Me.Consultation.Text = "Consultation"
         Me.Consultation.UseVisualStyleBackColor = True
         '
-        'Billing
+        'TableLayoutPanel4
         '
-        Me.Billing.Location = New System.Drawing.Point(4, 22)
-        Me.Billing.Name = "Billing"
-        Me.Billing.Size = New System.Drawing.Size(724, 310)
-        Me.Billing.TabIndex = 2
-        Me.Billing.Text = "Billing"
-        Me.Billing.UseVisualStyleBackColor = True
+        Me.TableLayoutPanel4.ColumnCount = 1
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel4.Controls.Add(Me.DataGridViewPrescriptions, 0, 1)
+        Me.TableLayoutPanel4.Controls.Add(Me.Label3, 0, 0)
+        Me.TableLayoutPanel4.Controls.Add(Me.Label17, 0, 2)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(362, 0)
+        Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
+        Me.TableLayoutPanel4.RowCount = 3
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(362, 310)
+        Me.TableLayoutPanel4.TabIndex = 2
         '
-        'Panel1
+        'DataGridViewPrescriptions
         '
-        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel1.Controls.Add(Me.Label16)
-        Me.Panel1.Controls.Add(Me.NavbarMenu)
-        Me.Panel1.Controls.Add(Me.PictureBox3)
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(784, 38)
-        Me.Panel1.TabIndex = 5
+        Me.DataGridViewPrescriptions.BackgroundColor = System.Drawing.SystemColors.Control
+        Me.DataGridViewPrescriptions.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.DataGridViewPrescriptions.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
+        Me.DataGridViewPrescriptions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridViewPrescriptions.GridColor = System.Drawing.SystemColors.ActiveCaption
+        Me.DataGridViewPrescriptions.Location = New System.Drawing.Point(3, 34)
+        Me.DataGridViewPrescriptions.Name = "DataGridViewPrescriptions"
+        Me.DataGridViewPrescriptions.Size = New System.Drawing.Size(356, 149)
+        Me.DataGridViewPrescriptions.TabIndex = 11
         '
-        'Label16
+        'Label3
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(335, 12)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(144, 20)
-        Me.Label16.TabIndex = 11
-        Me.Label16.Text = "Patient Information"
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(3, 5)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(113, 20)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Prescriptions"
         '
-        'NavbarMenu
+        'Label17
         '
-        Me.NavbarMenu.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.NavbarMenu.Location = New System.Drawing.Point(700, 3)
-        Me.NavbarMenu.Name = "NavbarMenu"
-        Me.NavbarMenu.Size = New System.Drawing.Size(75, 29)
-        Me.NavbarMenu.TabIndex = 6
-        Me.NavbarMenu.Text = "Menu"
-        Me.NavbarMenu.UseVisualStyleBackColor = True
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackgroundImage = Global.docucare_appointment_management_system.My.Resources.Resources.banner
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(100, 35)
-        Me.PictureBox3.TabIndex = 6
-        Me.PictureBox3.TabStop = False
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(3, 186)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(87, 13)
+        Me.Label17.TabIndex = 1
+        Me.Label17.Text = "Additional Notes:"
         '
         'TableLayoutPanel3
         '
@@ -343,6 +434,39 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel3.Size = New System.Drawing.Size(362, 316)
         Me.TableLayoutPanel3.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(3, 52)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(82, 13)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Consultation ID:"
+        '
+        'Label10
+        '
+        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(3, 9)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(207, 20)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "Consultation Information"
+        '
+        'Label4
+        '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(3, 288)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(56, 13)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "Diagnosis:"
         '
         'Label5
         '
@@ -395,167 +519,207 @@ Partial Class UcPatientInfo
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(3, 91)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(57, 13)
+        Me.Label9.Size = New System.Drawing.Size(74, 13)
         Me.Label9.TabIndex = 1
-        Me.Label9.Text = "Full Name:"
+        Me.Label9.Text = "Patient Name:"
         '
-        'Label10
+        'Billing
         '
-        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(3, 9)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(207, 20)
-        Me.Label10.TabIndex = 0
-        Me.Label10.Text = "Consultation Information"
+        Me.Billing.Controls.Add(Me.TableLayoutPanel7)
+        Me.Billing.Controls.Add(Me.TableLayoutPanel6)
+        Me.Billing.Controls.Add(Me.TableLayoutPanel5)
+        Me.Billing.Location = New System.Drawing.Point(4, 22)
+        Me.Billing.Name = "Billing"
+        Me.Billing.Size = New System.Drawing.Size(724, 310)
+        Me.Billing.TabIndex = 2
+        Me.Billing.Text = "Billing"
+        Me.Billing.UseVisualStyleBackColor = True
         '
-        'Allergies_Lbl
+        'Panel1
         '
-        Me.Allergies_Lbl.AutoSize = True
-        Me.Allergies_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Allergies_Lbl.Location = New System.Drawing.Point(3, 52)
-        Me.Allergies_Lbl.Name = "Allergies_Lbl"
-        Me.Allergies_Lbl.Size = New System.Drawing.Size(49, 13)
-        Me.Allergies_Lbl.TabIndex = 2
-        Me.Allergies_Lbl.Text = "Allergies:"
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel1.Controls.Add(Me.Label16)
+        Me.Panel1.Controls.Add(Me.NavbarMenu)
+        Me.Panel1.Controls.Add(Me.PictureBox3)
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(784, 38)
+        Me.Panel1.TabIndex = 5
         '
-        'BloodType_Lbl
+        'Label16
         '
-        Me.BloodType_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.BloodType_Lbl.AutoSize = True
-        Me.BloodType_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BloodType_Lbl.Location = New System.Drawing.Point(3, 291)
-        Me.BloodType_Lbl.Name = "BloodType_Lbl"
-        Me.BloodType_Lbl.Size = New System.Drawing.Size(64, 13)
-        Me.BloodType_Lbl.TabIndex = 9
-        Me.BloodType_Lbl.Text = "Blood Type:"
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(335, 12)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(144, 20)
+        Me.Label16.TabIndex = 11
+        Me.Label16.Text = "Patient Information"
         '
-        'Weight_Lbl
+        'NavbarMenu
         '
-        Me.Weight_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Weight_Lbl.AutoSize = True
-        Me.Weight_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Weight_Lbl.Location = New System.Drawing.Point(3, 257)
-        Me.Weight_Lbl.Name = "Weight_Lbl"
-        Me.Weight_Lbl.Size = New System.Drawing.Size(44, 13)
-        Me.Weight_Lbl.TabIndex = 8
-        Me.Weight_Lbl.Text = "Weight:"
+        Me.NavbarMenu.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.NavbarMenu.Location = New System.Drawing.Point(700, 3)
+        Me.NavbarMenu.Name = "NavbarMenu"
+        Me.NavbarMenu.Size = New System.Drawing.Size(75, 29)
+        Me.NavbarMenu.TabIndex = 6
+        Me.NavbarMenu.Text = "Menu"
+        Me.NavbarMenu.UseVisualStyleBackColor = True
         '
-        'Height_Lbl
+        'PictureBox3
         '
-        Me.Height_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Height_Lbl.AutoSize = True
-        Me.Height_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Height_Lbl.Location = New System.Drawing.Point(3, 226)
-        Me.Height_Lbl.Name = "Height_Lbl"
-        Me.Height_Lbl.Size = New System.Drawing.Size(41, 13)
-        Me.Height_Lbl.TabIndex = 7
-        Me.Height_Lbl.Text = "Height:"
+        Me.PictureBox3.BackgroundImage = Global.docucare_appointment_management_system.My.Resources.Resources.banner
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(100, 35)
+        Me.PictureBox3.TabIndex = 6
+        Me.PictureBox3.TabStop = False
         '
-        'Gender_Lbl
+        'TableLayoutPanel6
         '
-        Me.Gender_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Gender_Lbl.AutoSize = True
-        Me.Gender_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Gender_Lbl.Location = New System.Drawing.Point(3, 102)
-        Me.Gender_Lbl.Name = "Gender_Lbl"
-        Me.Gender_Lbl.Size = New System.Drawing.Size(45, 13)
-        Me.Gender_Lbl.TabIndex = 3
-        Me.Gender_Lbl.Text = "Gender:"
+        Me.TableLayoutPanel6.ColumnCount = 1
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel6.Controls.Add(Me.DataGridView1, 0, 0)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(362, 60)
+        Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
+        Me.TableLayoutPanel6.RowCount = 1
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(362, 250)
+        Me.TableLayoutPanel6.TabIndex = 2
         '
-        'Lbl_Header2
+        'Label20
         '
-        Me.Lbl_Header2.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Lbl_Header2.AutoSize = True
-        Me.Lbl_Header2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_Header2.Location = New System.Drawing.Point(3, 191)
-        Me.Lbl_Header2.Name = "Lbl_Header2"
-        Me.Lbl_Header2.Size = New System.Drawing.Size(159, 20)
-        Me.Lbl_Header2.TabIndex = 6
-        Me.Lbl_Header2.Text = "Health Information"
+        Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(3, 13)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(51, 13)
+        Me.Label20.TabIndex = 1
+        Me.Label20.Text = "Billing ID:"
         '
-        'EmContactNo_Lbl
+        'Label19
         '
-        Me.EmContactNo_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.EmContactNo_Lbl.AutoSize = True
-        Me.EmContactNo_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EmContactNo_Lbl.Location = New System.Drawing.Point(3, 164)
-        Me.EmContactNo_Lbl.Name = "EmContactNo_Lbl"
-        Me.EmContactNo_Lbl.Size = New System.Drawing.Size(123, 13)
-        Me.EmContactNo_Lbl.TabIndex = 5
-        Me.EmContactNo_Lbl.Text = "Emergency Contact No.:"
+        Me.Label19.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(3, 53)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(74, 13)
+        Me.Label19.TabIndex = 2
+        Me.Label19.Text = "Patient Name:"
         '
-        'Label4
+        'Label18
         '
-        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(3, 288)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(56, 13)
-        Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Diagnosis:"
+        Me.Label18.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(3, 94)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(33, 13)
+        Me.Label18.TabIndex = 3
+        Me.Label18.Text = "Date:"
         '
-        'Label1
+        'TableLayoutPanel5
         '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 52)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 13)
-        Me.Label1.TabIndex = 11
-        Me.Label1.Text = "Consultation ID:"
+        Me.TableLayoutPanel5.ColumnCount = 1
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel5.Controls.Add(Me.Label20, 0, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.Label19, 0, 1)
+        Me.TableLayoutPanel5.Controls.Add(Me.Label18, 0, 2)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(0, 60)
+        Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
+        Me.TableLayoutPanel5.RowCount = 3
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(362, 121)
+        Me.TableLayoutPanel5.TabIndex = 1
         '
-        'TableLayoutPanel4
+        'TableLayoutPanel7
         '
-        Me.TableLayoutPanel4.ColumnCount = 1
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel4.Controls.Add(Me.DataGridViewPrescriptions, 0, 1)
-        Me.TableLayoutPanel4.Controls.Add(Me.Label3, 0, 0)
-        Me.TableLayoutPanel4.Controls.Add(Me.Label17, 0, 2)
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(362, 0)
-        Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
-        Me.TableLayoutPanel4.RowCount = 3
-        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(362, 310)
-        Me.TableLayoutPanel4.TabIndex = 2
+        Me.TableLayoutPanel7.ColumnCount = 1
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel7.Controls.Add(Me.Label2, 0, 0)
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
+        Me.TableLayoutPanel7.RowCount = 1
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(724, 54)
+        Me.TableLayoutPanel7.TabIndex = 3
         '
-        'Label3
+        'Label2
         '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(3, 5)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(113, 20)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Prescriptions"
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(282, 17)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(159, 20)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Billing Information:"
         '
-        'Label17
+        'DataGridView1
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(3, 186)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(87, 13)
-        Me.Label17.TabIndex = 1
-        Me.Label17.Text = "Additional Notes:"
+        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.Control
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Description, Me.Quantity, Me.UnitPrice, Me.Subtotal})
+        Me.DataGridView1.GridColor = System.Drawing.SystemColors.ActiveBorder
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 3)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(356, 244)
+        Me.DataGridView1.TabIndex = 7
         '
-        'DataGridViewPrescriptions
+        'Description
         '
-        Me.DataGridViewPrescriptions.BackgroundColor = System.Drawing.SystemColors.Control
-        Me.DataGridViewPrescriptions.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.DataGridViewPrescriptions.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        Me.DataGridViewPrescriptions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewPrescriptions.GridColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DataGridViewPrescriptions.Location = New System.Drawing.Point(3, 34)
-        Me.DataGridViewPrescriptions.Name = "DataGridViewPrescriptions"
-        Me.DataGridViewPrescriptions.Size = New System.Drawing.Size(356, 149)
-        Me.DataGridViewPrescriptions.TabIndex = 11
+        Me.Description.HeaderText = "Description"
+        Me.Description.Name = "Description"
+        '
+        'Quantity
+        '
+        Me.Quantity.HeaderText = "Quantity"
+        Me.Quantity.Name = "Quantity"
+        Me.Quantity.Width = 60
+        '
+        'UnitPrice
+        '
+        Me.UnitPrice.HeaderText = "Unit Price"
+        Me.UnitPrice.Name = "UnitPrice"
+        '
+        'Subtotal
+        '
+        Me.Subtotal.HeaderText = "Subtotal"
+        Me.Subtotal.Name = "Subtotal"
         '
         'UcPatientInfo
         '
@@ -576,14 +740,21 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.Consultation.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TableLayoutPanel3.ResumeLayout(False)
-        Me.TableLayoutPanel3.PerformLayout()
         Me.TableLayoutPanel4.ResumeLayout(False)
         Me.TableLayoutPanel4.PerformLayout()
         CType(Me.DataGridViewPrescriptions, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TableLayoutPanel3.ResumeLayout(False)
+        Me.TableLayoutPanel3.PerformLayout()
+        Me.Billing.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TableLayoutPanel6.ResumeLayout(False)
+        Me.TableLayoutPanel5.ResumeLayout(False)
+        Me.TableLayoutPanel5.PerformLayout()
+        Me.TableLayoutPanel7.ResumeLayout(False)
+        Me.TableLayoutPanel7.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -628,4 +799,16 @@ Partial Class UcPatientInfo
     Friend WithEvents Label3 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents DataGridViewPrescriptions As DataGridView
+    Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Description As DataGridViewTextBoxColumn
+    Friend WithEvents Quantity As DataGridViewTextBoxColumn
+    Friend WithEvents UnitPrice As DataGridViewTextBoxColumn
+    Friend WithEvents Subtotal As DataGridViewTextBoxColumn
 End Class
