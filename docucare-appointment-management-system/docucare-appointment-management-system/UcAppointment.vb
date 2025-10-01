@@ -19,5 +19,7 @@
         MainContentPanel.Controls.Add(addMainMenu)
     End Sub
 
-
+    Private Sub addAppointmentBtn_Click(sender As Object, e As EventArgs) Handles addAppointmentBtn.Click
+        AddAppointment.Show()
+    End Sub
 End Class

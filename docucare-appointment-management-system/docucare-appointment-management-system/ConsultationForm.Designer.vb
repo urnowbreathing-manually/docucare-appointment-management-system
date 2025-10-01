@@ -48,6 +48,7 @@ Partial Class ConsultationForm
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PrescriptionsBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PrescriptionsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -74,6 +75,7 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel2.ColumnCount = 2
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.Controls.Add(Me.Label11, 0, 3)
         Me.TableLayoutPanel2.Controls.Add(Me.Label5, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 1, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.Label4, 1, 1)
@@ -82,17 +84,18 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel2.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(4, 45)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
-        Me.TableLayoutPanel2.RowCount = 3
+        Me.TableLayoutPanel2.RowCount = 4
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(628, 86)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(4, 35)
+        Me.Label5.Location = New System.Drawing.Point(4, 27)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(49, 13)
         Me.Label5.TabIndex = 11
@@ -101,7 +104,7 @@ Partial Class ConsultationForm
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(317, 35)
+        Me.Label6.Location = New System.Drawing.Point(317, 27)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(99, 13)
         Me.Label6.TabIndex = 10
@@ -111,9 +114,9 @@ Partial Class ConsultationForm
         '
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(317, 19)
+        Me.Label4.Location = New System.Drawing.Point(317, 14)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(29, 13)
+        Me.Label4.Size = New System.Drawing.Size(29, 12)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Age:"
         '
@@ -121,9 +124,9 @@ Partial Class ConsultationForm
         '
         Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(4, 19)
+        Me.Label3.Location = New System.Drawing.Point(4, 14)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 13)
+        Me.Label3.Size = New System.Drawing.Size(45, 12)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Gender:"
         '
@@ -131,9 +134,9 @@ Partial Class ConsultationForm
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(317, 2)
+        Me.Label2.Location = New System.Drawing.Point(317, 1)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 13)
+        Me.Label2.Size = New System.Drawing.Size(57, 12)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Full Name:"
         '
@@ -141,9 +144,9 @@ Partial Class ConsultationForm
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(4, 2)
+        Me.Label1.Location = New System.Drawing.Point(4, 1)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(57, 13)
+        Me.Label1.Size = New System.Drawing.Size(57, 12)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Patient ID:"
         '
@@ -156,7 +159,7 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel3.Controls.Add(Me.Label8, 0, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.Label9, 0, 2)
         Me.TableLayoutPanel3.Controls.Add(Me.Symptoms, 0, 1)
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(4, 153)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(4, 192)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 4
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
@@ -207,7 +210,7 @@ Partial Class ConsultationForm
         Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(265, 329)
+        Me.Label13.Location = New System.Drawing.Point(265, 371)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(85, 16)
         Me.Label13.TabIndex = 4
@@ -218,7 +221,7 @@ Partial Class ConsultationForm
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(237, 134)
+        Me.Label14.Location = New System.Drawing.Point(241, 173)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(158, 16)
         Me.Label14.TabIndex = 5
@@ -228,7 +231,7 @@ Partial Class ConsultationForm
         '
         Me.Add.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Add.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Add.Location = New System.Drawing.Point(356, 326)
+        Me.Add.Location = New System.Drawing.Point(356, 368)
         Me.Add.Name = "Add"
         Me.Add.Size = New System.Drawing.Size(80, 23)
         Me.Add.TabIndex = 9
@@ -252,7 +255,7 @@ Partial Class ConsultationForm
         Me.DataGridViewPrescriptions.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
         Me.DataGridViewPrescriptions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridViewPrescriptions.GridColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DataGridViewPrescriptions.Location = New System.Drawing.Point(4, 352)
+        Me.DataGridViewPrescriptions.Location = New System.Drawing.Point(4, 394)
         Me.DataGridViewPrescriptions.Name = "DataGridViewPrescriptions"
         Me.DataGridViewPrescriptions.Size = New System.Drawing.Size(628, 150)
         Me.DataGridViewPrescriptions.TabIndex = 10
@@ -263,7 +266,7 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Notes, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label10, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(4, 508)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(4, 550)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -323,6 +326,15 @@ Partial Class ConsultationForm
         '
         Me.PrescriptionsBindingSource.DataSource = GetType(docucare_appointment_management_system.Prescriptions)
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(4, 64)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(47, 13)
+        Me.Label11.TabIndex = 12
+        Me.Label11.Text = "Reason:"
+        '
         'ConsultationForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -380,4 +392,5 @@ Partial Class ConsultationForm
     Friend WithEvents Label10 As Label
     Friend WithEvents CreateConsultation As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label11 As Label
 End Class

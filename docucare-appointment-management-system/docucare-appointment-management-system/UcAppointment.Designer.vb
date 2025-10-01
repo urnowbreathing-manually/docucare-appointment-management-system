@@ -35,6 +35,7 @@ Partial Class UcAppointment
         Me.DateSched = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.TimeSched = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.AppointmentType = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.addAppointmentBtn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PatientInfoPanel.SuspendLayout()
@@ -86,6 +87,7 @@ Partial Class UcAppointment
         'PatientInfoPanel
         '
         Me.PatientInfoPanel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PatientInfoPanel.Controls.Add(Me.addAppointmentBtn)
         Me.PatientInfoPanel.Controls.Add(Me.MonthCalendar1)
         Me.PatientInfoPanel.Controls.Add(Me.DataGridView1)
         Me.PatientInfoPanel.Location = New System.Drawing.Point(0, 101)
@@ -140,6 +142,18 @@ Partial Class UcAppointment
         Me.AppointmentType.HeaderText = "AppointmentType"
         Me.AppointmentType.Name = "AppointmentType"
         '
+        'addAppointmentBtn
+        '
+        Me.addAppointmentBtn.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.addAppointmentBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addAppointmentBtn.ForeColor = System.Drawing.SystemColors.Control
+        Me.addAppointmentBtn.Location = New System.Drawing.Point(600, 266)
+        Me.addAppointmentBtn.Name = "addAppointmentBtn"
+        Me.addAppointmentBtn.Size = New System.Drawing.Size(137, 29)
+        Me.addAppointmentBtn.TabIndex = 13
+        Me.addAppointmentBtn.Text = "Add an appointment"
+        Me.addAppointmentBtn.UseVisualStyleBackColor = False
+        '
         'UcAppointment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -172,4 +186,5 @@ Partial Class UcAppointment
     Friend WithEvents DateSched As DataGridViewTextBoxColumn
     Friend WithEvents TimeSched As DataGridViewTextBoxColumn
     Friend WithEvents AppointmentType As DataGridViewTextBoxColumn
+    Friend WithEvents addAppointmentBtn As Button
 End Class
