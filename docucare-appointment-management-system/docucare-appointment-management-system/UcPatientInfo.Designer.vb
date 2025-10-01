@@ -23,15 +23,14 @@ Partial Class UcPatientInfo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PatientInfoPanel = New System.Windows.Forms.Panel()
-        Me.PatientID_Lbl = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.EditPatientBtn = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Patient = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.MedCond_Lbl = New System.Windows.Forms.Label()
         Me.Lbl_Header_3 = New System.Windows.Forms.Label()
         Me.Allergies_Lbl = New System.Windows.Forms.Label()
+        Me.MedCond_Lbl = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.BloodType_Lbl = New System.Windows.Forms.Label()
         Me.Weight_Lbl = New System.Windows.Forms.Label()
@@ -46,7 +45,6 @@ Partial Class UcPatientInfo
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Consultation = New System.Windows.Forms.TabPage()
         Me.Billing = New System.Windows.Forms.TabPage()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.NavbarMenu = New System.Windows.Forms.Button()
@@ -57,7 +55,6 @@ Partial Class UcPatientInfo
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -65,50 +62,37 @@ Partial Class UcPatientInfo
         'PatientInfoPanel
         '
         Me.PatientInfoPanel.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.PatientInfoPanel.Controls.Add(Me.PatientID_Lbl)
-        Me.PatientInfoPanel.Controls.Add(Me.Button1)
+        Me.PatientInfoPanel.Controls.Add(Me.EditPatientBtn)
         Me.PatientInfoPanel.Controls.Add(Me.TabControl1)
-        Me.PatientInfoPanel.Controls.Add(Me.PictureBox2)
         Me.PatientInfoPanel.Location = New System.Drawing.Point(0, 98)
         Me.PatientInfoPanel.Name = "PatientInfoPanel"
         Me.PatientInfoPanel.Size = New System.Drawing.Size(784, 400)
         Me.PatientInfoPanel.TabIndex = 3
         '
-        'PatientID_Lbl
+        'EditPatientBtn
         '
-        Me.PatientID_Lbl.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.PatientID_Lbl.AutoSize = True
-        Me.PatientID_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PatientID_Lbl.Location = New System.Drawing.Point(6, 106)
-        Me.PatientID_Lbl.Name = "PatientID_Lbl"
-        Me.PatientID_Lbl.Size = New System.Drawing.Size(57, 13)
-        Me.PatientID_Lbl.TabIndex = 7
-        Me.PatientID_Lbl.Text = "Patient ID:"
-        '
-        'Button1
-        '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button1.Location = New System.Drawing.Point(310, 355)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(293, 36)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Edit Info"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.EditPatientBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.EditPatientBtn.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.EditPatientBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.EditPatientBtn.FlatAppearance.BorderSize = 0
+        Me.EditPatientBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EditPatientBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.EditPatientBtn.Location = New System.Drawing.Point(271, 355)
+        Me.EditPatientBtn.Name = "EditPatientBtn"
+        Me.EditPatientBtn.Size = New System.Drawing.Size(293, 36)
+        Me.EditPatientBtn.TabIndex = 6
+        Me.EditPatientBtn.Text = "Edit Info"
+        Me.EditPatientBtn.UseVisualStyleBackColor = False
         '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.Patient)
         Me.TabControl1.Controls.Add(Me.Consultation)
         Me.TabControl1.Controls.Add(Me.Billing)
-        Me.TabControl1.Location = New System.Drawing.Point(115, 13)
+        Me.TabControl1.Location = New System.Drawing.Point(53, 13)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(670, 336)
+        Me.TabControl1.Size = New System.Drawing.Size(732, 336)
         Me.TabControl1.TabIndex = 4
         '
         'Patient
@@ -118,7 +102,7 @@ Partial Class UcPatientInfo
         Me.Patient.Location = New System.Drawing.Point(4, 22)
         Me.Patient.Name = "Patient"
         Me.Patient.Padding = New System.Windows.Forms.Padding(3)
-        Me.Patient.Size = New System.Drawing.Size(662, 310)
+        Me.Patient.Size = New System.Drawing.Size(724, 310)
         Me.Patient.TabIndex = 0
         Me.Patient.Text = "Patient"
         Me.Patient.UseVisualStyleBackColor = True
@@ -148,16 +132,6 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(309, 158)
         Me.TableLayoutPanel2.TabIndex = 5
         '
-        'MedCond_Lbl
-        '
-        Me.MedCond_Lbl.AutoSize = True
-        Me.MedCond_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MedCond_Lbl.Location = New System.Drawing.Point(3, 104)
-        Me.MedCond_Lbl.Name = "MedCond_Lbl"
-        Me.MedCond_Lbl.Size = New System.Drawing.Size(99, 13)
-        Me.MedCond_Lbl.TabIndex = 3
-        Me.MedCond_Lbl.Text = "Medical Conditions:"
-        '
         'Lbl_Header_3
         '
         Me.Lbl_Header_3.Anchor = System.Windows.Forms.AnchorStyles.Left
@@ -178,6 +152,16 @@ Partial Class UcPatientInfo
         Me.Allergies_Lbl.Size = New System.Drawing.Size(49, 13)
         Me.Allergies_Lbl.TabIndex = 2
         Me.Allergies_Lbl.Text = "Allergies:"
+        '
+        'MedCond_Lbl
+        '
+        Me.MedCond_Lbl.AutoSize = True
+        Me.MedCond_Lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MedCond_Lbl.Location = New System.Drawing.Point(3, 104)
+        Me.MedCond_Lbl.Name = "MedCond_Lbl"
+        Me.MedCond_Lbl.Size = New System.Drawing.Size(99, 13)
+        Me.MedCond_Lbl.TabIndex = 3
+        Me.MedCond_Lbl.Text = "Medical Conditions:"
         '
         'TableLayoutPanel1
         '
@@ -332,7 +316,7 @@ Partial Class UcPatientInfo
         Me.Consultation.Location = New System.Drawing.Point(4, 22)
         Me.Consultation.Name = "Consultation"
         Me.Consultation.Padding = New System.Windows.Forms.Padding(3)
-        Me.Consultation.Size = New System.Drawing.Size(662, 310)
+        Me.Consultation.Size = New System.Drawing.Size(724, 310)
         Me.Consultation.TabIndex = 1
         Me.Consultation.Text = "Consultation"
         Me.Consultation.UseVisualStyleBackColor = True
@@ -341,20 +325,10 @@ Partial Class UcPatientInfo
         '
         Me.Billing.Location = New System.Drawing.Point(4, 22)
         Me.Billing.Name = "Billing"
-        Me.Billing.Size = New System.Drawing.Size(662, 310)
+        Me.Billing.Size = New System.Drawing.Size(724, 310)
         Me.Billing.TabIndex = 2
         Me.Billing.Text = "Billing"
         Me.Billing.UseVisualStyleBackColor = True
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackgroundImage = Global.docucare_appointment_management_system.My.Resources.Resources.patient_profile_template
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(9, 13)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(100, 90)
-        Me.PictureBox2.TabIndex = 3
-        Me.PictureBox2.TabStop = False
         '
         'Panel1
         '
@@ -409,7 +383,6 @@ Partial Class UcPatientInfo
         Me.Name = "UcPatientInfo"
         Me.Size = New System.Drawing.Size(784, 501)
         Me.PatientInfoPanel.ResumeLayout(False)
-        Me.PatientInfoPanel.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.Patient.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
@@ -417,7 +390,6 @@ Partial Class UcPatientInfo
         Me.TableLayoutPanel2.PerformLayout()
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -429,7 +401,7 @@ Partial Class UcPatientInfo
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents Patient As TabPage
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents Button1 As Button
+    Friend WithEvents EditPatientBtn As Button
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents MedCond_Lbl As Label
     Friend WithEvents Lbl_Header_3 As Label
@@ -448,10 +420,8 @@ Partial Class UcPatientInfo
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Consultation As TabPage
     Friend WithEvents Billing As TabPage
-    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents NavbarMenu As Button
-    Friend WithEvents PatientID_Lbl As Label
     Friend WithEvents Label16 As Label
 End Class
