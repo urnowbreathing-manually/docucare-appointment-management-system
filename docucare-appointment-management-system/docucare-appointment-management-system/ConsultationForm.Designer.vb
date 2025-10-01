@@ -25,6 +25,7 @@ Partial Class ConsultationForm
         Me.components = New System.ComponentModel.Container()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -48,7 +49,6 @@ Partial Class ConsultationForm
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PrescriptionsBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PrescriptionsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -91,6 +91,15 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(628, 86)
         Me.TableLayoutPanel2.TabIndex = 0
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(4, 64)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(47, 13)
+        Me.Label11.TabIndex = 12
+        Me.Label11.Text = "Reason:"
         '
         'Label5
         '
@@ -325,15 +334,6 @@ Partial Class ConsultationForm
         'PrescriptionsBindingSource
         '
         Me.PrescriptionsBindingSource.DataSource = GetType(docucare_appointment_management_system.Prescriptions)
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(4, 64)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(47, 13)
-        Me.Label11.TabIndex = 12
-        Me.Label11.Text = "Reason:"
         '
         'ConsultationForm
         '

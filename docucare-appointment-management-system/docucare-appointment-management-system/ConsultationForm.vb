@@ -86,6 +86,7 @@
         ' Show summary
         MessageBox.Show(summary, "Consultation Saved", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Me.Close()
+
     End Sub
 
 

@@ -8,4 +8,6 @@
         Dim mainMenu As New UcMainMenu(MainContentPanel)
         MainContentPanel.Controls.Add(mainMenu)
     End Sub
+
+
 End Class
