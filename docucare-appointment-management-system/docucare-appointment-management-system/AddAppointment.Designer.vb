@@ -32,7 +32,7 @@ Partial Class AddAppointment
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Notes = New System.Windows.Forms.TextBox()
         Me.Save = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ButtonCancel = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -166,21 +166,21 @@ Partial Class AddAppointment
         Me.Save.Text = "Save Appointment"
         Me.Save.UseVisualStyleBackColor = False
         '
-        'Button1
+        'ButtonCancel
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.Control
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack
-        Me.Button1.FlatAppearance.BorderSize = 6
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(216, 465)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(184, 35)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Cancel"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.ButtonCancel.BackColor = System.Drawing.SystemColors.Control
+        Me.ButtonCancel.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack
+        Me.ButtonCancel.FlatAppearance.BorderSize = 6
+        Me.ButtonCancel.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
+        Me.ButtonCancel.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
+        Me.ButtonCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonCancel.ForeColor = System.Drawing.Color.Black
+        Me.ButtonCancel.Location = New System.Drawing.Point(216, 465)
+        Me.ButtonCancel.Name = "ButtonCancel"
+        Me.ButtonCancel.Size = New System.Drawing.Size(184, 35)
+        Me.ButtonCancel.TabIndex = 13
+        Me.ButtonCancel.Text = "Cancel"
+        Me.ButtonCancel.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -299,7 +299,7 @@ Partial Class AddAppointment
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ButtonCancel)
         Me.Controls.Add(Me.Save)
         Me.Controls.Add(Me.TableLayoutPanel4)
         Me.Controls.Add(Me.TableLayoutPanel3)
@@ -332,7 +332,7 @@ Partial Class AddAppointment
     Friend WithEvents Label4 As Label
     Friend WithEvents Notes As TextBox
     Friend WithEvents Save As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ButtonCancel As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents PictureBox1 As PictureBox

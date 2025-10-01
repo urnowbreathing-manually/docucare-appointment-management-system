@@ -113,5 +113,11 @@
             MedCond_Lbl.Text = "Medical Conditions: " & editForm.TxtMedicalConditions
         End If
     End Sub
+    Private Sub NavbarMenu_Click(sender As Object, e As EventArgs) Handles NavbarMenu.Click
+        MainContentPanel.Controls.Clear()
+        Dim addMainMenu As New UcMainMenu(MainContentPanel)
+        addMainMenu.Dock = DockStyle.Fill
+        MainContentPanel.Controls.Add(addMainMenu)
+    End Sub
 
 End Class

@@ -49,8 +49,9 @@
         Me.Close()
     End Sub
 
-
-    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel1.Paint
-
+    Private Sub ButtonCancel_Click(sender As Object, e As EventArgs) Handles ButtonCancel.Click
+        Me.DialogResult = DialogResult.Cancel
+        Me.Close()
     End Sub
+
 End Class

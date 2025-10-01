@@ -25,6 +25,7 @@ Partial Class ConsultationForm
         Me.components = New System.ComponentModel.Container()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -48,7 +49,6 @@ Partial Class ConsultationForm
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PrescriptionsBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PrescriptionsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,7 +63,7 @@ Partial Class ConsultationForm
         Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(61, 9)
+        Me.Label7.Location = New System.Drawing.Point(61, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(172, 20)
         Me.Label7.TabIndex = 2
@@ -91,6 +91,15 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(628, 86)
         Me.TableLayoutPanel2.TabIndex = 0
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(4, 64)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(47, 13)
+        Me.Label11.TabIndex = 12
+        Me.Label11.Text = "Reason:"
         '
         'Label5
         '
@@ -210,7 +219,7 @@ Partial Class ConsultationForm
         Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(265, 371)
+        Me.Label13.Location = New System.Drawing.Point(265, 362)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(85, 16)
         Me.Label13.TabIndex = 4
@@ -221,7 +230,7 @@ Partial Class ConsultationForm
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(241, 173)
+        Me.Label14.Location = New System.Drawing.Point(241, 164)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(158, 16)
         Me.Label14.TabIndex = 5
@@ -326,20 +335,11 @@ Partial Class ConsultationForm
         '
         Me.PrescriptionsBindingSource.DataSource = GetType(docucare_appointment_management_system.Prescriptions)
         '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(4, 64)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(47, 13)
-        Me.Label11.TabIndex = 12
-        Me.Label11.Text = "Reason:"
-        '
         'ConsultationForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(634, 766)
+        Me.ClientSize = New System.Drawing.Size(634, 749)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CreateConsultation)
         Me.Controls.Add(Me.TableLayoutPanel1)
