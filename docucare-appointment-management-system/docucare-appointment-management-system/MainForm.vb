@@ -5,8 +5,8 @@
 
     Private Sub MainContentPanel_Paint(sender As Object, e As PaintEventArgs) Handles MainContentPanel.Paint
         MainContentPanel.Dock = DockStyle.Fill
-        Dim mainMenu As New UcMainMenu(MainContentPanel)
-        MainContentPanel.Controls.Add(mainMenu)
+        Dim authForm As New UcAuthForm(MainContentPanel)
+        MainContentPanel.Controls.Add(authForm)
     End Sub
 
 

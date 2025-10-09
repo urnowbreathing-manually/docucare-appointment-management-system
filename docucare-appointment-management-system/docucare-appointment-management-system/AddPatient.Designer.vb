@@ -300,6 +300,7 @@ Partial Class AddPatient
         Me.Controls.Add(Me.FirstName)
         Me.Controls.Add(Me.Label1)
         Me.Name = "AddPatient"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Add New Patient Profile"
         Me.ResumeLayout(False)
         Me.PerformLayout()

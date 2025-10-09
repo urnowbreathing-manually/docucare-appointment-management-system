@@ -115,6 +115,7 @@ Partial Class Prescriptions
         Me.Controls.Add(Me.Medicine)
         Me.Controls.Add(Me.Label7)
         Me.Name = "Prescriptions"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Prescriptions"
         Me.ResumeLayout(False)
         Me.PerformLayout()

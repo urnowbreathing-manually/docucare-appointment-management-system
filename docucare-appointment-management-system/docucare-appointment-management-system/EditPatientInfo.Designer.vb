@@ -312,6 +312,7 @@ Partial Class EditPatientInfo
         Me.Controls.Add(Me.FirstName)
         Me.Controls.Add(Me.Label1)
         Me.Name = "EditPatientInfo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Edit Patient "
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -30,9 +30,9 @@ Partial Class MainForm
         '
         Me.MainContentPanel.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.MainContentPanel.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.MainContentPanel.Location = New System.Drawing.Point(-7, -2)
+        Me.MainContentPanel.Location = New System.Drawing.Point(12, 12)
         Me.MainContentPanel.Name = "MainContentPanel"
-        Me.MainContentPanel.Size = New System.Drawing.Size(784, 501)
+        Me.MainContentPanel.Size = New System.Drawing.Size(769, 492)
         Me.MainContentPanel.TabIndex = 0
         '
         'MainForm
