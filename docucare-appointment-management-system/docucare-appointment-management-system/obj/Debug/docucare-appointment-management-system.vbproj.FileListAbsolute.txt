@@ -61,3 +61,4 @@ C:\Users\Winblows10\Documents\OOP\DocUCare\docucare-appointment-management-syste
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.EditPatientInfo.resources
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.AddAppointment.resources
 C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.UcAuthForm.resources
+C:\Users\ADMIN\Source\Repos\docucare-appointment-management-system\docucare-appointment-management-system\docucare-appointment-management-system\obj\Debug\docucare_appointment_management_system.CreateDoctor.resources

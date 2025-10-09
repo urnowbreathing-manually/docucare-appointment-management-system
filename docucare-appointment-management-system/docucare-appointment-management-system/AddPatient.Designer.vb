@@ -154,7 +154,7 @@ Partial Class AddPatient
         Me.Save.FlatAppearance.BorderSize = 6
         Me.Save.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
         Me.Save.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
-        Me.Save.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Save.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Save.ForeColor = System.Drawing.Color.Transparent
         Me.Save.Location = New System.Drawing.Point(28, 515)
         Me.Save.Name = "Save"
@@ -170,7 +170,7 @@ Partial Class AddPatient
         Me.Button2.FlatAppearance.BorderSize = 6
         Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Location = New System.Drawing.Point(235, 515)
         Me.Button2.Name = "Button2"

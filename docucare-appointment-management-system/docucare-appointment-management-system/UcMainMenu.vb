@@ -81,4 +81,27 @@
         history.Dock = DockStyle.Fill
         MainContentPanel.Controls.Add(history)
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim result As DialogResult = MessageBox.Show(
+        "Are you sure you want to logout?",
+        "Exit Application",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Question
+    )
+        If result = DialogResult.Yes Then
+            'go back to auth form
+            MainContentPanel.Controls.Clear()
+            Dim userAuth As New UcAuthForm(MainContentPanel)
+            userAuth.Dock = DockStyle.Fill
+            MainContentPanel.Controls.Add(userAuth)
+        End If
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'test
+        'go to create doctor form
+        CreateDoctor.Show()
+    End Sub
 End Class

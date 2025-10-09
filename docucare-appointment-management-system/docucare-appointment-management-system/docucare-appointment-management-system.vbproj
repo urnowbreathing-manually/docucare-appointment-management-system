@@ -97,6 +97,12 @@
     <Compile Include="ConsultationForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CreateDoctor.Designer.vb">
+      <DependentUpon>CreateDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="EditPatientInfo.Designer.vb">
       <DependentUpon>EditPatientInfo.vb</DependentUpon>
     </Compile>
@@ -186,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultationForm.resx">
       <DependentUpon>ConsultationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateDoctor.resx">
+      <DependentUpon>CreateDoctor.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditPatientInfo.resx">
       <DependentUpon>EditPatientInfo.vb</DependentUpon>
