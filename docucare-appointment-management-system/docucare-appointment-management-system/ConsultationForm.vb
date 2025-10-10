@@ -128,4 +128,7 @@
         End If
     End Sub
 
+    Private Sub FlowPanelPrescriptions_Paint(sender As Object, e As PaintEventArgs) Handles FlowPanelPrescriptions.Paint
+
+    End Sub
 End Class

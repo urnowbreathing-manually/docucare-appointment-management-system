@@ -25,9 +25,6 @@ Partial Class AddAppointment
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.DateVal = New System.Windows.Forms.DateTimePicker()
-        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Reason = New System.Windows.Forms.TextBox()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Notes = New System.Windows.Forms.TextBox()
@@ -41,13 +38,16 @@ Partial Class AddAppointment
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.a = New System.Windows.Forms.Label()
-        Me.AppointmentType = New System.Windows.Forms.ComboBox()
+        Me.doctorDropDown = New System.Windows.Forms.ComboBox()
+        Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TimeVal = New System.Windows.Forms.DateTimePicker()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2.SuspendLayout()
-        Me.TableLayoutPanel3.SuspendLayout()
         Me.TableLayoutPanel4.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel5.SuspendLayout()
+        Me.TableLayoutPanel6.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel2
@@ -56,7 +56,7 @@ Partial Class AddAppointment
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label2, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.DateVal, 0, 1)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(19, 178)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(19, 155)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
@@ -69,7 +69,7 @@ Partial Class AddAppointment
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(384, 45)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(128, 45)
         Me.TableLayoutPanel2.TabIndex = 1
         '
         'Label2
@@ -83,41 +83,12 @@ Partial Class AddAppointment
         '
         'DateVal
         '
+        Me.DateVal.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateVal.Location = New System.Drawing.Point(3, 21)
+        Me.DateVal.MinDate = New Date(2025, 10, 10, 0, 0, 0, 0)
         Me.DateVal.Name = "DateVal"
-        Me.DateVal.Size = New System.Drawing.Size(378, 20)
+        Me.DateVal.Size = New System.Drawing.Size(116, 20)
         Me.DateVal.TabIndex = 2
-        '
-        'TableLayoutPanel3
-        '
-        Me.TableLayoutPanel3.ColumnCount = 1
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.Controls.Add(Me.Label3, 0, 0)
-        Me.TableLayoutPanel3.Controls.Add(Me.Reason, 0, 1)
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(19, 239)
-        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
-        Me.TableLayoutPanel3.RowCount = 2
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(384, 86)
-        Me.TableLayoutPanel3.TabIndex = 2
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(3, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(47, 13)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "Reason:"
-        '
-        'Reason
-        '
-        Me.Reason.Location = New System.Drawing.Point(3, 20)
-        Me.Reason.Multiline = True
-        Me.Reason.Name = "Reason"
-        Me.Reason.Size = New System.Drawing.Size(378, 61)
-        Me.Reason.TabIndex = 2
         '
         'TableLayoutPanel4
         '
@@ -125,7 +96,7 @@ Partial Class AddAppointment
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel4.Controls.Add(Me.Label4, 0, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.Notes, 0, 1)
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(16, 340)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(16, 281)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 2
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
@@ -157,9 +128,9 @@ Partial Class AddAppointment
         Me.Save.FlatAppearance.BorderSize = 6
         Me.Save.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
         Me.Save.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
-        Me.Save.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Save.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Save.ForeColor = System.Drawing.Color.Transparent
-        Me.Save.Location = New System.Drawing.Point(16, 465)
+        Me.Save.Location = New System.Drawing.Point(16, 413)
         Me.Save.Name = "Save"
         Me.Save.Size = New System.Drawing.Size(193, 35)
         Me.Save.TabIndex = 12
@@ -173,9 +144,9 @@ Partial Class AddAppointment
         Me.Button1.FlatAppearance.BorderSize = 6
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(216, 465)
+        Me.Button1.Location = New System.Drawing.Point(216, 413)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(184, 35)
         Me.Button1.TabIndex = 13
@@ -235,7 +206,7 @@ Partial Class AddAppointment
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.patientDropDown, 0, 1)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(19, 81)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(19, 95)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
@@ -256,8 +227,8 @@ Partial Class AddAppointment
         Me.TableLayoutPanel5.ColumnCount = 1
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel5.Controls.Add(Me.a, 0, 0)
-        Me.TableLayoutPanel5.Controls.Add(Me.AppointmentType, 0, 1)
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(19, 130)
+        Me.TableLayoutPanel5.Controls.Add(Me.doctorDropDown, 0, 1)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(16, 215)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
@@ -278,23 +249,65 @@ Partial Class AddAppointment
         Me.a.AutoSize = True
         Me.a.Location = New System.Drawing.Point(3, 0)
         Me.a.Name = "a"
-        Me.a.Size = New System.Drawing.Size(96, 13)
+        Me.a.Size = New System.Drawing.Size(88, 13)
         Me.a.TabIndex = 1
-        Me.a.Text = "Appointment Type:"
+        Me.a.Text = "Assigned Doctor:"
         '
-        'AppointmentType
+        'doctorDropDown
         '
-        Me.AppointmentType.FormattingEnabled = True
-        Me.AppointmentType.Location = New System.Drawing.Point(3, 21)
-        Me.AppointmentType.Name = "AppointmentType"
-        Me.AppointmentType.Size = New System.Drawing.Size(375, 21)
-        Me.AppointmentType.TabIndex = 2
+        Me.doctorDropDown.FormattingEnabled = True
+        Me.doctorDropDown.Location = New System.Drawing.Point(3, 21)
+        Me.doctorDropDown.Name = "doctorDropDown"
+        Me.doctorDropDown.Size = New System.Drawing.Size(375, 21)
+        Me.doctorDropDown.TabIndex = 2
+        '
+        'TableLayoutPanel6
+        '
+        Me.TableLayoutPanel6.ColumnCount = 1
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel6.Controls.Add(Me.TimeVal, 0, 1)
+        Me.TableLayoutPanel6.Controls.Add(Me.Label7, 0, 0)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(157, 155)
+        Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
+        Me.TableLayoutPanel6.RowCount = 2
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(128, 45)
+        Me.TableLayoutPanel6.TabIndex = 18
+        '
+        'TimeVal
+        '
+        Me.TimeVal.CustomFormat = "HH:mm tt"
+        Me.TimeVal.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.TimeVal.Location = New System.Drawing.Point(3, 21)
+        Me.TimeVal.Name = "TimeVal"
+        Me.TimeVal.ShowUpDown = True
+        Me.TimeVal.Size = New System.Drawing.Size(122, 20)
+        Me.TimeVal.TabIndex = 30
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(3, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(33, 13)
+        Me.Label7.TabIndex = 1
+        Me.Label7.Text = "Time:"
         '
         'AddAppointment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(428, 547)
+        Me.ClientSize = New System.Drawing.Size(428, 484)
+        Me.Controls.Add(Me.TableLayoutPanel6)
         Me.Controls.Add(Me.TableLayoutPanel5)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label6)
@@ -302,15 +315,12 @@ Partial Class AddAppointment
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Save)
         Me.Controls.Add(Me.TableLayoutPanel4)
-        Me.Controls.Add(Me.TableLayoutPanel3)
         Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "AddAppointment"
         Me.Text = "Appointment"
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel2.PerformLayout()
-        Me.TableLayoutPanel3.ResumeLayout(False)
-        Me.TableLayoutPanel3.PerformLayout()
         Me.TableLayoutPanel4.ResumeLayout(False)
         Me.TableLayoutPanel4.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -318,6 +328,8 @@ Partial Class AddAppointment
         Me.TableLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel5.PerformLayout()
+        Me.TableLayoutPanel6.ResumeLayout(False)
+        Me.TableLayoutPanel6.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -325,9 +337,6 @@ Partial Class AddAppointment
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Label2 As Label
     Friend WithEvents DateVal As DateTimePicker
-    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Reason As TextBox
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
     Friend WithEvents Label4 As Label
     Friend WithEvents Notes As TextBox
@@ -341,5 +350,8 @@ Partial Class AddAppointment
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
     Friend WithEvents a As Label
-    Friend WithEvents AppointmentType As ComboBox
+    Friend WithEvents doctorDropDown As ComboBox
+    Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
+    Friend WithEvents Label7 As Label
+    Friend WithEvents TimeVal As DateTimePicker
 End Class

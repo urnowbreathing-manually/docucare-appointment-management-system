@@ -1,56 +1,46 @@
 ﻿Public Class AddAppointment
+    Public Property SelectedPatient As String
+    Public Property SelectedDoctor As String
+    Public Property SelectedDate As String
+    Public Property SelectedTime As String
+    Public Property SelectedNotes As String
+
     Private Sub AddAppointment_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Fill dropdowns
         patientDropDown.Items.AddRange(New String() {
-            "patientName1", "patientName2", "patientName3", "patientName4", "patientName5"
+            "patient1", "patient2", "patient3"
         })
         patientDropDown.DropDownStyle = ComboBoxStyle.DropDownList
-        AppointmentType.Items.AddRange(New String() {
-        "General Consultation",
-        "Follow-up",
-        "Check-up",
-        "Laboratory Test"
-    })
-        AppointmentType.DropDownStyle = ComboBoxStyle.DropDownList
-    End Sub
-    Private Sub TableLayoutPanel2_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel2.Paint
 
-    End Sub
+        doctorDropDown.Items.AddRange(New String() {
+            "dctr1", "doctor2", "doctor 3"
+        })
+        doctorDropDown.DropDownStyle = ComboBoxStyle.DropDownList
 
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles patientDropDown.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
+        ' Set up date/time pickers
+        DateVal.Format = DateTimePickerFormat.Short
+        TimeVal.Format = DateTimePickerFormat.Custom
+        TimeVal.CustomFormat = "hh:mm tt"
+        TimeVal.ShowUpDown = True
     End Sub
 
     Private Sub Save_Click(sender As Object, e As EventArgs) Handles Save.Click
-        ' Validate required fields
-        If String.IsNullOrWhiteSpace(patientDropDown.Text) Or
-       String.IsNullOrWhiteSpace(AppointmentType.Text) Or
-       String.IsNullOrWhiteSpace(Reason.Text) Or
-       String.IsNullOrWhiteSpace(Notes.Text) Or
-       String.IsNullOrWhiteSpace(DateVal.Text) Then
-
+        ' Validation
+        If String.IsNullOrWhiteSpace(patientDropDown.Text) OrElse
+           String.IsNullOrWhiteSpace(doctorDropDown.Text) OrElse
+           String.IsNullOrWhiteSpace(Notes.Text) Then
             MessageBox.Show("Please fill out all required fields.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         End If
 
-        ' pseudosave
-        Dim info As String =
-        "Appointment Saved!" & vbCrLf &
-        "Patient: " & patientDropDown.Text & vbCrLf &
-        "Type: " & AppointmentType.Text & vbCrLf &
-        "Date: " & DateVal.Text & vbCrLf &
-        "Reason: " & Reason.Text & vbCrLf &
-        "Notes: " & Notes.Text
+        ' Pass values to main form
+        SelectedPatient = patientDropDown.Text
+        SelectedDoctor = doctorDropDown.Text
+        SelectedDate = DateVal.Value.ToShortDateString()
+        SelectedTime = TimeVal.Text
+        SelectedNotes = Notes.Text
 
-        MessageBox.Show(info, "Pseudo-Save", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Me.DialogResult = DialogResult.OK
         Me.Close()
-    End Sub
-
-
-    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel1.Paint
-
     End Sub
 End Class

@@ -136,7 +136,9 @@
     <Compile Include="Prescriptions.Designer.vb">
       <DependentUpon>Prescriptions.vb</DependentUpon>
     </Compile>
-    <Compile Include="Prescriptions.vb" />
+    <Compile Include="Prescriptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Startup_Fade.Designer.vb">
       <DependentUpon>Startup_Fade.vb</DependentUpon>
     </Compile>
