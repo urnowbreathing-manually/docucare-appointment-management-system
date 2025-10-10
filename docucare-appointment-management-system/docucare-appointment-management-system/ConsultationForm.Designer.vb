@@ -41,18 +41,17 @@ Partial Class ConsultationForm
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Add = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.DataGridViewPrescriptions = New System.Windows.Forms.DataGridView()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Notes = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.CreateConsultation = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.FlowPanelPrescriptions = New System.Windows.Forms.FlowLayoutPanel()
         Me.PrescriptionsBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PrescriptionsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.TableLayoutPanel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataGridViewPrescriptions, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PrescriptionsBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PrescriptionsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -257,18 +256,6 @@ Partial Class ConsultationForm
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'DataGridViewPrescriptions
-        '
-        Me.DataGridViewPrescriptions.BackgroundColor = System.Drawing.SystemColors.Control
-        Me.DataGridViewPrescriptions.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.DataGridViewPrescriptions.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        Me.DataGridViewPrescriptions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewPrescriptions.GridColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DataGridViewPrescriptions.Location = New System.Drawing.Point(4, 394)
-        Me.DataGridViewPrescriptions.Name = "DataGridViewPrescriptions"
-        Me.DataGridViewPrescriptions.Size = New System.Drawing.Size(628, 150)
-        Me.DataGridViewPrescriptions.TabIndex = 10
-        '
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 1
@@ -304,12 +291,11 @@ Partial Class ConsultationForm
         'CreateConsultation
         '
         Me.CreateConsultation.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.CreateConsultation.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CreateConsultation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CreateConsultation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CreateConsultation.ForeColor = System.Drawing.SystemColors.Control
-        Me.CreateConsultation.Location = New System.Drawing.Point(161, 656)
+        Me.CreateConsultation.Location = New System.Drawing.Point(63, 668)
         Me.CreateConsultation.Name = "CreateConsultation"
-        Me.CreateConsultation.Size = New System.Drawing.Size(298, 40)
+        Me.CreateConsultation.Size = New System.Drawing.Size(298, 35)
         Me.CreateConsultation.TabIndex = 12
         Me.CreateConsultation.Text = "Create Consultation"
         Me.CreateConsultation.UseVisualStyleBackColor = False
@@ -317,15 +303,29 @@ Partial Class ConsultationForm
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.Control
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button2.Location = New System.Drawing.Point(161, 714)
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack
+        Me.Button2.FlatAppearance.BorderSize = 6
+        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack
+        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Black
+        Me.Button2.Location = New System.Drawing.Point(367, 668)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(298, 40)
+        Me.Button2.Size = New System.Drawing.Size(161, 35)
         Me.Button2.TabIndex = 13
         Me.Button2.Text = "Cancel"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'FlowPanelPrescriptions
+        '
+        Me.FlowPanelPrescriptions.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.FlowPanelPrescriptions.AutoScroll = True
+        Me.FlowPanelPrescriptions.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.FlowPanelPrescriptions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.FlowPanelPrescriptions.Location = New System.Drawing.Point(9, 394)
+        Me.FlowPanelPrescriptions.Name = "FlowPanelPrescriptions"
+        Me.FlowPanelPrescriptions.Size = New System.Drawing.Size(618, 150)
+        Me.FlowPanelPrescriptions.TabIndex = 14
         '
         'PrescriptionsBindingSource1
         '
@@ -340,10 +340,10 @@ Partial Class ConsultationForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(634, 766)
+        Me.Controls.Add(Me.FlowPanelPrescriptions)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CreateConsultation)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Controls.Add(Me.DataGridViewPrescriptions)
         Me.Controls.Add(Me.Add)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
@@ -358,7 +358,6 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel3.ResumeLayout(False)
         Me.TableLayoutPanel3.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridViewPrescriptions, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.PrescriptionsBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -386,11 +385,11 @@ Partial Class ConsultationForm
     Friend WithEvents Add As Button
     Friend WithEvents PrescriptionsBindingSource1 As BindingSource
     Friend WithEvents PrescriptionsBindingSource As BindingSource
-    Friend WithEvents DataGridViewPrescriptions As DataGridView
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Notes As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents CreateConsultation As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents Label11 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents FlowPanelPrescriptions As FlowLayoutPanel
 End Class
