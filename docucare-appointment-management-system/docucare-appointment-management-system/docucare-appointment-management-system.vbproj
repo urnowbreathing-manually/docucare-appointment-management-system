@@ -103,6 +103,12 @@
     <Compile Include="CreateDoctor.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CreateStaff.Designer.vb">
+      <DependentUpon>CreateStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="EditPatientInfo.Designer.vb">
       <DependentUpon>EditPatientInfo.vb</DependentUpon>
     </Compile>
@@ -195,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CreateDoctor.resx">
       <DependentUpon>CreateDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateStaff.resx">
+      <DependentUpon>CreateStaff.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditPatientInfo.resx">
       <DependentUpon>EditPatientInfo.vb</DependentUpon>

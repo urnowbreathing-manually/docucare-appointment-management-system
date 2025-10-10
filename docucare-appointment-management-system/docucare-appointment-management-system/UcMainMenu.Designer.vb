@@ -24,18 +24,19 @@ Partial Class UcMainMenu
     Private Sub InitializeComponent()
         Me.MM_Panel = New System.Windows.Forms.Panel()
         Me.MM_RPanel = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MM_Dashboard = New System.Windows.Forms.DataGridView()
         Me.MM_Calendar = New System.Windows.Forms.MonthCalendar()
         Me.MM_LPanel = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.MM_Buttons = New System.Windows.Forms.TableLayoutPanel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.NewStaffBtn = New System.Windows.Forms.Button()
+        Me.NewDoctorBtn = New System.Windows.Forms.Button()
+        Me.MM_NewBtn = New System.Windows.Forms.Button()
         Me.HistoryBtn = New System.Windows.Forms.Button()
         Me.AppointmentBtn = New System.Windows.Forms.Button()
         Me.PatientRecordsBtn = New System.Windows.Forms.Button()
-        Me.MM_NewBtn = New System.Windows.Forms.Button()
         Me.MM_QuitBtn = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.MM_Title = New System.Windows.Forms.PictureBox()
         Me.MM_Panel.SuspendLayout()
         Me.MM_RPanel.SuspendLayout()
@@ -62,12 +63,23 @@ Partial Class UcMainMenu
         Me.MM_RPanel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MM_RPanel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.MM_RPanel.Controls.Add(Me.Label1)
         Me.MM_RPanel.Controls.Add(Me.MM_Dashboard)
         Me.MM_RPanel.Controls.Add(Me.MM_Calendar)
         Me.MM_RPanel.Location = New System.Drawing.Point(557, 0)
         Me.MM_RPanel.Name = "MM_RPanel"
         Me.MM_RPanel.Size = New System.Drawing.Size(227, 501)
         Me.MM_RPanel.TabIndex = 3
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(3, 189)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(114, 16)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Welcome, ADMIN"
         '
         'MM_Dashboard
         '
@@ -93,23 +105,12 @@ Partial Class UcMainMenu
         Me.MM_LPanel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.MM_LPanel.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.MM_LPanel.Controls.Add(Me.Label1)
         Me.MM_LPanel.Controls.Add(Me.MM_Buttons)
         Me.MM_LPanel.Controls.Add(Me.MM_Title)
         Me.MM_LPanel.Location = New System.Drawing.Point(0, 0)
         Me.MM_LPanel.Name = "MM_LPanel"
         Me.MM_LPanel.Size = New System.Drawing.Size(227, 501)
         Me.MM_LPanel.TabIndex = 2
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(17, 98)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 16)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Welcome, ADMIN"
         '
         'MM_Buttons
         '
@@ -119,76 +120,47 @@ Partial Class UcMainMenu
         Me.MM_Buttons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.MM_Buttons.ColumnCount = 1
         Me.MM_Buttons.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.MM_Buttons.Controls.Add(Me.Button2, 0, 5)
-        Me.MM_Buttons.Controls.Add(Me.Button1, 0, 4)
+        Me.MM_Buttons.Controls.Add(Me.NewStaffBtn, 0, 5)
+        Me.MM_Buttons.Controls.Add(Me.NewDoctorBtn, 0, 4)
+        Me.MM_Buttons.Controls.Add(Me.MM_NewBtn, 0, 0)
         Me.MM_Buttons.Controls.Add(Me.HistoryBtn, 0, 3)
         Me.MM_Buttons.Controls.Add(Me.AppointmentBtn, 0, 2)
         Me.MM_Buttons.Controls.Add(Me.PatientRecordsBtn, 0, 1)
-        Me.MM_Buttons.Controls.Add(Me.MM_NewBtn, 0, 0)
-        Me.MM_Buttons.Controls.Add(Me.MM_QuitBtn, 0, 6)
-        Me.MM_Buttons.Location = New System.Drawing.Point(0, 117)
+        Me.MM_Buttons.Controls.Add(Me.MM_QuitBtn, 0, 7)
+        Me.MM_Buttons.Controls.Add(Me.Button2, 0, 6)
+        Me.MM_Buttons.Location = New System.Drawing.Point(0, 77)
         Me.MM_Buttons.Name = "MM_Buttons"
-        Me.MM_Buttons.RowCount = 7
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571!))
-        Me.MM_Buttons.Size = New System.Drawing.Size(227, 384)
+        Me.MM_Buttons.RowCount = 8
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5!))
+        Me.MM_Buttons.Size = New System.Drawing.Size(227, 424)
         Me.MM_Buttons.TabIndex = 2
         '
-        'Button2
+        'NewStaffBtn
         '
-        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button2.ForeColor = System.Drawing.Color.DarkRed
-        Me.Button2.Location = New System.Drawing.Point(20, 277)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(186, 39)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "Logout"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.NewStaffBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.NewStaffBtn.Location = New System.Drawing.Point(20, 272)
+        Me.NewStaffBtn.Name = "NewStaffBtn"
+        Me.NewStaffBtn.Size = New System.Drawing.Size(186, 39)
+        Me.NewStaffBtn.TabIndex = 7
+        Me.NewStaffBtn.Text = "Create New Staff Role"
+        Me.NewStaffBtn.UseVisualStyleBackColor = True
         '
-        'Button1
+        'NewDoctorBtn
         '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button1.Location = New System.Drawing.Point(20, 223)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(186, 39)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Create New Roles"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'HistoryBtn
-        '
-        Me.HistoryBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.HistoryBtn.Location = New System.Drawing.Point(20, 169)
-        Me.HistoryBtn.Name = "HistoryBtn"
-        Me.HistoryBtn.Size = New System.Drawing.Size(186, 39)
-        Me.HistoryBtn.TabIndex = 3
-        Me.HistoryBtn.Text = "History"
-        Me.HistoryBtn.UseVisualStyleBackColor = True
-        '
-        'AppointmentBtn
-        '
-        Me.AppointmentBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.AppointmentBtn.Location = New System.Drawing.Point(20, 115)
-        Me.AppointmentBtn.Name = "AppointmentBtn"
-        Me.AppointmentBtn.Size = New System.Drawing.Size(186, 39)
-        Me.AppointmentBtn.TabIndex = 2
-        Me.AppointmentBtn.Text = "Appointments"
-        Me.AppointmentBtn.UseVisualStyleBackColor = True
-        '
-        'PatientRecordsBtn
-        '
-        Me.PatientRecordsBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.PatientRecordsBtn.Location = New System.Drawing.Point(20, 61)
-        Me.PatientRecordsBtn.Name = "PatientRecordsBtn"
-        Me.PatientRecordsBtn.Size = New System.Drawing.Size(186, 39)
-        Me.PatientRecordsBtn.TabIndex = 1
-        Me.PatientRecordsBtn.Text = "Patient Records"
-        Me.PatientRecordsBtn.UseVisualStyleBackColor = True
+        Me.NewDoctorBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.NewDoctorBtn.Location = New System.Drawing.Point(20, 219)
+        Me.NewDoctorBtn.Name = "NewDoctorBtn"
+        Me.NewDoctorBtn.Size = New System.Drawing.Size(186, 39)
+        Me.NewDoctorBtn.TabIndex = 5
+        Me.NewDoctorBtn.Text = "Create New Doctor Role"
+        Me.NewDoctorBtn.UseVisualStyleBackColor = True
         '
         'MM_NewBtn
         '
@@ -200,16 +172,57 @@ Partial Class UcMainMenu
         Me.MM_NewBtn.Text = "Add New Patient"
         Me.MM_NewBtn.UseVisualStyleBackColor = True
         '
+        'HistoryBtn
+        '
+        Me.HistoryBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.HistoryBtn.Location = New System.Drawing.Point(20, 166)
+        Me.HistoryBtn.Name = "HistoryBtn"
+        Me.HistoryBtn.Size = New System.Drawing.Size(186, 39)
+        Me.HistoryBtn.TabIndex = 3
+        Me.HistoryBtn.Text = "History"
+        Me.HistoryBtn.UseVisualStyleBackColor = True
+        '
+        'AppointmentBtn
+        '
+        Me.AppointmentBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.AppointmentBtn.Location = New System.Drawing.Point(20, 113)
+        Me.AppointmentBtn.Name = "AppointmentBtn"
+        Me.AppointmentBtn.Size = New System.Drawing.Size(186, 39)
+        Me.AppointmentBtn.TabIndex = 2
+        Me.AppointmentBtn.Text = "Appointments"
+        Me.AppointmentBtn.UseVisualStyleBackColor = True
+        '
+        'PatientRecordsBtn
+        '
+        Me.PatientRecordsBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PatientRecordsBtn.Location = New System.Drawing.Point(20, 60)
+        Me.PatientRecordsBtn.Name = "PatientRecordsBtn"
+        Me.PatientRecordsBtn.Size = New System.Drawing.Size(186, 39)
+        Me.PatientRecordsBtn.TabIndex = 1
+        Me.PatientRecordsBtn.Text = "Patient Records"
+        Me.PatientRecordsBtn.UseVisualStyleBackColor = True
+        '
         'MM_QuitBtn
         '
         Me.MM_QuitBtn.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.MM_QuitBtn.ForeColor = System.Drawing.Color.DarkRed
-        Me.MM_QuitBtn.Location = New System.Drawing.Point(20, 334)
+        Me.MM_QuitBtn.Location = New System.Drawing.Point(20, 378)
         Me.MM_QuitBtn.Name = "MM_QuitBtn"
         Me.MM_QuitBtn.Size = New System.Drawing.Size(186, 39)
         Me.MM_QuitBtn.TabIndex = 4
         Me.MM_QuitBtn.Text = "Quit to Desktop"
         Me.MM_QuitBtn.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button2.ForeColor = System.Drawing.Color.DarkRed
+        Me.Button2.Location = New System.Drawing.Point(20, 325)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(186, 39)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "Logout"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'MM_Title
         '
@@ -231,9 +244,9 @@ Partial Class UcMainMenu
         Me.Size = New System.Drawing.Size(784, 501)
         Me.MM_Panel.ResumeLayout(False)
         Me.MM_RPanel.ResumeLayout(False)
+        Me.MM_RPanel.PerformLayout()
         CType(Me.MM_Dashboard, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MM_LPanel.ResumeLayout(False)
-        Me.MM_LPanel.PerformLayout()
         Me.MM_Buttons.ResumeLayout(False)
         CType(Me.MM_Title, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -252,7 +265,8 @@ Partial Class UcMainMenu
     Friend WithEvents PatientRecordsBtn As Button
     Friend WithEvents MM_NewBtn As Button
     Friend WithEvents MM_Title As PictureBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents NewDoctorBtn As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents NewStaffBtn As Button
 End Class

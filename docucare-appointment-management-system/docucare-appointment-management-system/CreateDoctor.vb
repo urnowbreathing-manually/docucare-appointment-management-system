@@ -76,7 +76,7 @@ Public Class CreateDoctor
     End Sub
 
     ' ----- Pseudo Save (Login Button) -----
-    Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles LoginBtn.Click
+    Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles CreateDoctorBtn.Click
         ' Validate all required textboxes
         Dim missingFields As New List(Of String)
 

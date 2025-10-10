@@ -99,9 +99,19 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub NewDoctor_Click(sender As Object, e As EventArgs) Handles NewDoctorBtn.Click
         'test
         'go to create doctor form
-        CreateDoctor.Show()
+        Dim form As New CreateDoctor()
+        form.ShowDialog() ' blocks parent until closed
+    End Sub
+
+    Private Sub MM_LPanel_Paint(sender As Object, e As PaintEventArgs) Handles MM_LPanel.Paint
+
+    End Sub
+
+    Private Sub NewStaff_Click(sender As Object, e As EventArgs) Handles NewStaffBtn.Click
+        Dim form As New CreateStaff()
+        form.ShowDialog() ' blocks parent until closed
     End Sub
 End Class

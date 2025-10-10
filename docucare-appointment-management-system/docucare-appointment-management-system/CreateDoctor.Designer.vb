@@ -74,7 +74,7 @@ Partial Class CreateDoctor
         Me.checkMonday = New System.Windows.Forms.CheckBox()
         Me.checkTue = New System.Windows.Forms.CheckBox()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.LoginBtn = New System.Windows.Forms.Button()
+        Me.CreateDoctorBtn = New System.Windows.Forms.Button()
         Me.Cancel = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -628,20 +628,20 @@ Partial Class CreateDoctor
         Me.Label20.TabIndex = 12
         Me.Label20.Text = "Availability"
         '
-        'LoginBtn
+        'CreateDoctorBtn
         '
-        Me.LoginBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.LoginBtn.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.LoginBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.LoginBtn.FlatAppearance.BorderSize = 0
-        Me.LoginBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LoginBtn.ForeColor = System.Drawing.SystemColors.Control
-        Me.LoginBtn.Location = New System.Drawing.Point(12, 585)
-        Me.LoginBtn.Name = "LoginBtn"
-        Me.LoginBtn.Size = New System.Drawing.Size(241, 36)
-        Me.LoginBtn.TabIndex = 13
-        Me.LoginBtn.Text = "Create Doctor Account"
-        Me.LoginBtn.UseVisualStyleBackColor = False
+        Me.CreateDoctorBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.CreateDoctorBtn.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.CreateDoctorBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.CreateDoctorBtn.FlatAppearance.BorderSize = 0
+        Me.CreateDoctorBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CreateDoctorBtn.ForeColor = System.Drawing.SystemColors.Control
+        Me.CreateDoctorBtn.Location = New System.Drawing.Point(12, 585)
+        Me.CreateDoctorBtn.Name = "CreateDoctorBtn"
+        Me.CreateDoctorBtn.Size = New System.Drawing.Size(241, 36)
+        Me.CreateDoctorBtn.TabIndex = 13
+        Me.CreateDoctorBtn.Text = "Create Doctor Account"
+        Me.CreateDoctorBtn.UseVisualStyleBackColor = False
         '
         'Cancel
         '
@@ -663,7 +663,7 @@ Partial Class CreateDoctor
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(428, 662)
         Me.Controls.Add(Me.Cancel)
-        Me.Controls.Add(Me.LoginBtn)
+        Me.Controls.Add(Me.CreateDoctorBtn)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label5)
@@ -738,6 +738,6 @@ Partial Class CreateDoctor
     Friend WithEvents checkMonday As CheckBox
     Friend WithEvents checkTue As CheckBox
     Friend WithEvents Label20 As Label
-    Friend WithEvents LoginBtn As Button
+    Friend WithEvents CreateDoctorBtn As Button
     Friend WithEvents Cancel As Button
 End Class
