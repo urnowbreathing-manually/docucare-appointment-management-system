@@ -174,6 +174,7 @@ Partial Class Prescriptions
         'Dose
         '
         Me.Dose.Location = New System.Drawing.Point(29, 119)
+        Me.Dose.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
         Me.Dose.Name = "Dose"
         Me.Dose.Size = New System.Drawing.Size(47, 20)
         Me.Dose.TabIndex = 34
