@@ -7,6 +7,7 @@
     End Sub
 
     Private Sub LoginBtn_Click(sender As Object, e As EventArgs) Handles LoginBtn.Click
+        DataStore.currentUser = {"", "", "", ""}
         'error handling
         If String.IsNullOrWhiteSpace(UserName.Text) Then
             MessageBox.Show("Username is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
@@ -42,6 +43,7 @@
                     Exit Sub
                 End If
 
+                DataStore.currentUser = {UserName.Text, Password.Text, VerifiedID.Text, DataStore.personnelDB(i, 3)}
                 MainContentPanel.Controls.Clear()
                 Dim addMainMenu As New UcMainMenu(MainContentPanel)
                 addMainMenu.Dock = DockStyle.Fill
@@ -66,15 +68,4 @@
         tb.SelectionStart = tb.Text.Length
     End Sub
 
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles Password.TextChanged
-
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
-
-    Private Sub VerifiedID_TextChanged(sender As Object, e As EventArgs) Handles VerifiedID.TextChanged
-
-    End Sub
 End Class

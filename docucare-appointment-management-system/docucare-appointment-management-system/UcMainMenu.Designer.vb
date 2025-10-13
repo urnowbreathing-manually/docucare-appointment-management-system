@@ -24,7 +24,7 @@ Partial Class UcMainMenu
     Private Sub InitializeComponent()
         Me.MM_Panel = New System.Windows.Forms.Panel()
         Me.MM_RPanel = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.WelcomeText = New System.Windows.Forms.Label()
         Me.MM_Dashboard = New System.Windows.Forms.DataGridView()
         Me.MM_Calendar = New System.Windows.Forms.MonthCalendar()
         Me.MM_LPanel = New System.Windows.Forms.Panel()
@@ -63,7 +63,7 @@ Partial Class UcMainMenu
         Me.MM_RPanel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MM_RPanel.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.MM_RPanel.Controls.Add(Me.Label1)
+        Me.MM_RPanel.Controls.Add(Me.WelcomeText)
         Me.MM_RPanel.Controls.Add(Me.MM_Dashboard)
         Me.MM_RPanel.Controls.Add(Me.MM_Calendar)
         Me.MM_RPanel.Location = New System.Drawing.Point(557, 0)
@@ -71,15 +71,15 @@ Partial Class UcMainMenu
         Me.MM_RPanel.Size = New System.Drawing.Size(227, 501)
         Me.MM_RPanel.TabIndex = 3
         '
-        'Label1
+        'WelcomeText
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 189)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 16)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Welcome, ADMIN"
+        Me.WelcomeText.AutoSize = True
+        Me.WelcomeText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.WelcomeText.Location = New System.Drawing.Point(3, 189)
+        Me.WelcomeText.Name = "WelcomeText"
+        Me.WelcomeText.Size = New System.Drawing.Size(114, 16)
+        Me.WelcomeText.TabIndex = 4
+        Me.WelcomeText.Text = "Welcome, ADMIN"
         '
         'MM_Dashboard
         '
@@ -266,7 +266,7 @@ Partial Class UcMainMenu
     Friend WithEvents MM_NewBtn As Button
     Friend WithEvents MM_Title As PictureBox
     Friend WithEvents NewDoctorBtn As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents WelcomeText As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents NewStaffBtn As Button
 End Class

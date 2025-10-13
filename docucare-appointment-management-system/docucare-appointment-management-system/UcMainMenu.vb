@@ -9,6 +9,8 @@
         MainContentPanel = parent
     End Sub
     Private Sub UcMainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        WelcomeText.Text = "Welcome, " + DataStore.currentUser(0) + " - " + DataStore.currentUser(3)
         'StartupAnimation() ' Disabled for now, no animation or sound
     End Sub
 
@@ -71,10 +73,6 @@
         MainContentPanel.Controls.Add(appointment)
     End Sub
 
-    Private Sub MM_HistoryBtn_Click(sender As Object, e As EventArgs) Handles HistoryBtn.Click
-
-    End Sub
-
     Private Sub HistoryBtn_Click(sender As Object, e As EventArgs) Handles HistoryBtn.Click
         MainContentPanel.Controls.Clear()
         Dim history As New UcHistory(MainContentPanel)
@@ -106,12 +104,10 @@
         form.ShowDialog() ' blocks parent until closed
     End Sub
 
-    Private Sub MM_LPanel_Paint(sender As Object, e As PaintEventArgs) Handles MM_LPanel.Paint
-
-    End Sub
-
     Private Sub NewStaff_Click(sender As Object, e As EventArgs) Handles NewStaffBtn.Click
         Dim form As New CreateStaff()
         form.ShowDialog() ' blocks parent until closed
     End Sub
+
+
 End Class
