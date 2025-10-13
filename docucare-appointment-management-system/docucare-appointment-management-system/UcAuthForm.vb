@@ -24,10 +24,32 @@
             Exit Sub
         End If
 
-        MainContentPanel.Controls.Clear()
-        Dim addMainMenu As New UcMainMenu(MainContentPanel)
-        addMainMenu.Dock = DockStyle.Fill
-        MainContentPanel.Controls.Add(addMainMenu)
+        'Account Verification
+        For i As Integer = 0 To 3
+            If UserName.Text = DataStore.personnelDB(i, 0) Then
+                If Password.Text = DataStore.personnelDB(i, 1) Then
+                    If VerifiedID.Text = DataStore.personnelDB(i, 2) Then
+                        MainContentPanel.Controls.Clear()
+                        Dim addMainMenu As New UcMainMenu(MainContentPanel)
+                        addMainMenu.Dock = DockStyle.Fill
+                        MainContentPanel.Controls.Add(addMainMenu)
+                        Exit For
+                    ElseIf i = 3 Then
+                        MessageBox.Show("Incorrect ID.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                        VerifiedID.Focus()
+                        Exit Sub
+                    End If
+                ElseIf i = 3 Then
+                    MessageBox.Show("Incorrect Password.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                    Password.Focus()
+                    Exit Sub
+                End If
+            ElseIf i = 3 Then
+                MessageBox.Show("User does not exist.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                UserName.Focus()
+                Exit Sub
+            End If
+        Next
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles UserName.TextChanged
