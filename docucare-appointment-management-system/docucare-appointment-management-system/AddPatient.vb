@@ -23,6 +23,8 @@
         BloodType.SelectedIndex = 0
         ' Make it dropdown only (no typing random text)
         BloodType.DropDownStyle = ComboBoxStyle.DropDownList
+
+
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -178,30 +180,28 @@
         End If
 
         ' 
-        Dim fname As String = FirstName.Text
-        Dim lname As String = LastName.Text
-        Dim ageVal As String = Age.Text
-        Dim heightVal As String = Height.Text
-        Dim weightVal As String = Weight.Text
-        Dim gender As String = Me.Gender.SelectedItem.ToString()
-        Dim contact As String = ContactNum.Text
-        Dim bloodTypeVal As String = BloodType.Text
-        Dim allergiesVal As String = If(String.IsNullOrWhiteSpace(Allergies.Text), "N/A", Allergies.Text)
-        Dim medConditionVal As String = If(String.IsNullOrWhiteSpace(MedicalConditions.Text), "N/A", MedicalConditions.Text)
+        ' --- Create a new patient object ---
+        Dim newPatient As New Patient With {
+    .FirstName = FirstName.Text,
+    .LastName = LastName.Text,
+    .Age = CInt(Age.Text),
+    .Gender = Gender.SelectedItem.ToString(),
+    .Height = CInt(Height.Text),
+    .Weight = CInt(Weight.Text),
+    .ContactNum = ContactNum.Text,
+    .BloodType = BloodType.SelectedItem.ToString(),
+    .Allergies = If(String.IsNullOrWhiteSpace(Allergies.Text), "N/A", Allergies.Text),
+    .MedicalConditions = If(String.IsNullOrWhiteSpace(MedicalConditions.Text), "N/A", MedicalConditions.Text),
+    .EmergencyContact = EmergencyContact.Text
+}
+
+        ' Add patient to shared list
+        PatientData.Patients.Add(newPatient)
+
+        MessageBox.Show("Patient saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
 
-        ' SAve message
-        MessageBox.Show("Patient Saved Successfully!" & vbCrLf &
-                "Name: " & fname & " " & lname & vbCrLf &
-                "Age: " & ageVal & vbCrLf &
-                "Gender: " & gender & vbCrLf &
-                "Height: " & heightVal & vbCrLf &
-                "Weight: " & weightVal & vbCrLf &
-                "Contact: " & contact & vbCrLf &
-                "Blood Type: " & bloodTypeVal & vbCrLf &
-                "Allergies: " & allergiesVal & vbCrLf &
-                "Medical Conditions: " & medConditionVal,
-                "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
 
         Me.Close()
     End Sub
