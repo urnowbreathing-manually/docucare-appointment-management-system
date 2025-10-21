@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ConsultationForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ConsultationForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -37,16 +37,13 @@ Partial Class ConsultationForm
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Symptoms = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.Add = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Notes = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.CreateConsultation = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.FlowPanelPrescriptions = New System.Windows.Forms.FlowLayoutPanel()
         Me.PrescriptionsBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PrescriptionsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.TableLayoutPanel2.SuspendLayout()
@@ -213,17 +210,6 @@ Partial Class ConsultationForm
         Me.Symptoms.Size = New System.Drawing.Size(618, 58)
         Me.Symptoms.TabIndex = 3
         '
-        'Label13
-        '
-        Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(265, 371)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(85, 16)
-        Me.Label13.TabIndex = 4
-        Me.Label13.Text = "Prescriptions"
-        '
         'Label14
         '
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.Left
@@ -234,17 +220,6 @@ Partial Class ConsultationForm
         Me.Label14.Size = New System.Drawing.Size(158, 16)
         Me.Label14.TabIndex = 5
         Me.Label14.Text = "Professional Observation"
-        '
-        'Add
-        '
-        Me.Add.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Add.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Add.Location = New System.Drawing.Point(356, 368)
-        Me.Add.Name = "Add"
-        Me.Add.Size = New System.Drawing.Size(80, 23)
-        Me.Add.TabIndex = 9
-        Me.Add.Text = "Add "
-        Me.Add.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -262,18 +237,18 @@ Partial Class ConsultationForm
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Notes, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label10, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(4, 550)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(4, 368)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(628, 100)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(628, 282)
         Me.TableLayoutPanel1.TabIndex = 11
         '
         'Notes
         '
         Me.Notes.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Notes.Location = New System.Drawing.Point(5, 23)
+        Me.Notes.Location = New System.Drawing.Point(5, 132)
         Me.Notes.Multiline = True
         Me.Notes.Name = "Notes"
         Me.Notes.Size = New System.Drawing.Size(618, 73)
@@ -316,17 +291,6 @@ Partial Class ConsultationForm
         Me.Button2.Text = "Cancel"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'FlowPanelPrescriptions
-        '
-        Me.FlowPanelPrescriptions.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.FlowPanelPrescriptions.AutoScroll = True
-        Me.FlowPanelPrescriptions.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.FlowPanelPrescriptions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.FlowPanelPrescriptions.Location = New System.Drawing.Point(9, 394)
-        Me.FlowPanelPrescriptions.Name = "FlowPanelPrescriptions"
-        Me.FlowPanelPrescriptions.Size = New System.Drawing.Size(618, 150)
-        Me.FlowPanelPrescriptions.TabIndex = 14
-        '
         'PrescriptionsBindingSource1
         '
         Me.PrescriptionsBindingSource1.DataSource = GetType(docucare_appointment_management_system.Prescriptions)
@@ -340,13 +304,10 @@ Partial Class ConsultationForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(634, 766)
-        Me.Controls.Add(Me.FlowPanelPrescriptions)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CreateConsultation)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Controls.Add(Me.Add)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.TableLayoutPanel3)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TableLayoutPanel2)
@@ -380,9 +341,7 @@ Partial Class ConsultationForm
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Symptoms As TextBox
-    Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents Add As Button
     Friend WithEvents PrescriptionsBindingSource1 As BindingSource
     Friend WithEvents PrescriptionsBindingSource As BindingSource
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
@@ -391,5 +350,4 @@ Partial Class ConsultationForm
     Friend WithEvents CreateConsultation As Button
     Friend WithEvents Label11 As Label
     Friend WithEvents Button2 As Button
-    Friend WithEvents FlowPanelPrescriptions As FlowLayoutPanel
 End Class

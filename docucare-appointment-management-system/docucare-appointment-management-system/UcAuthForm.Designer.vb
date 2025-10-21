@@ -44,9 +44,9 @@ Partial Class UcAuthForm
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(60, 117)
+        Me.PictureBox1.Location = New System.Drawing.Point(52, 99)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(226, 238)
+        Me.PictureBox1.Size = New System.Drawing.Size(271, 304)
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
