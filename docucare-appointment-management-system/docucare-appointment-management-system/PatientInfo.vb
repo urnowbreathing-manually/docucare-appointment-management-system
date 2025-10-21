@@ -1,12 +1,4 @@
-﻿Public Class UcPatientInfo
-    Inherits UserControl
-
-    Private MainContentPanel As Panel
-
-    Public Sub New(parent As Panel)
-        InitializeComponent()
-        MainContentPanel = parent
-    End Sub
+﻿Public Class PatientInfo
 
     Private Function SafeField(split() As String, idx As Integer) As String
         If split Is Nothing OrElse idx < 0 OrElse idx >= split.Length Then
@@ -15,9 +7,22 @@
         Return split(idx)
     End Function
 
-    Private Sub UcPatientInfo_Load(sender As Object, e As EventArgs) Handles Me.Load
-        RefreshUiFromMainMenu()
+    Private Sub PatientInfo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim parts() As String = UcMainMenu.patientInfo.Split("|"c)
+        If parts.Length >= 11 Then
+            FullName_Lbl.Text = $"{parts(0)}, {parts(1)}"
+            Age_Lbl.Text = parts(2)
+            Gender_Lbl.Text = parts(3)
+            ContactNo_Lbl.Text = parts(4)
+            EmContactNo_Lbl.Text = parts(5)
+            Height_Lbl.Text = parts(6)
+            Weight_Lbl.Text = parts(7)
+            BloodType_Lbl.Text = parts(8)
+            Allergies_Lbl.Text = parts(9)
+            MedCond_Lbl.Text = parts(10)
+        End If
     End Sub
+
 
     Public Sub RefreshUiFromMainMenu()
         Try
@@ -134,10 +139,7 @@
 
     End Sub
 
-    Private Sub NavbarMenu_Click(sender As Object, e As EventArgs) Handles NavbarMenu.Click
-        MainContentPanel.Controls.Clear()
-        Dim addMainMenu As New UcMainMenu(MainContentPanel)
-        addMainMenu.Dock = DockStyle.Fill
-        MainContentPanel.Controls.Add(addMainMenu)
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
     End Sub
 End Class
