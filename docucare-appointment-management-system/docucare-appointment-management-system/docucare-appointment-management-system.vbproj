@@ -110,6 +110,18 @@
     <Compile Include="EditPatientInfo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ListDoctors.Designer.vb">
+      <DependentUpon>ListDoctors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListDoctors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListStaff.Designer.vb">
+      <DependentUpon>ListStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.Designer.vb">
       <DependentUpon>MainForm.vb</DependentUpon>
     </Compile>
