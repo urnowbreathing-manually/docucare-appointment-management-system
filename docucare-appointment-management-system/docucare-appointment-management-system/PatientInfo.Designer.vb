@@ -1,9 +1,8 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class PatientInfo
+﻿Partial Class PatientInfo
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +19,8 @@ Partial Class PatientInfo
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.PatientInfoPanel = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Patient = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -69,7 +68,6 @@ Partial Class PatientInfo
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.Patient.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -86,18 +84,25 @@ Partial Class PatientInfo
         Me.TableLayoutPanel5.SuspendLayout()
         Me.SuspendLayout()
         '
+        'PatientInfoPanel
+        '
+        Me.PatientInfoPanel.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PatientInfoPanel.Controls.Add(Me.TabControl1)
+        Me.PatientInfoPanel.Location = New System.Drawing.Point(8, 25)
+        Me.PatientInfoPanel.Name = "PatientInfoPanel"
+        Me.PatientInfoPanel.Size = New System.Drawing.Size(784, 400)
+        Me.PatientInfoPanel.TabIndex = 4
+        '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.Patient)
         Me.TabControl1.Controls.Add(Me.Consultation)
         Me.TabControl1.Controls.Add(Me.Billing)
         Me.TabControl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabControl1.Location = New System.Drawing.Point(34, 57)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(732, 336)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
-        Me.TabControl1.TabIndex = 5
         '
         'Patient
         '
@@ -665,29 +670,13 @@ Partial Class PatientInfo
         Me.Label18.TabIndex = 3
         Me.Label18.Text = "Date:"
         '
-        'Button1
         '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button1.BackColor = System.Drawing.Color.Brown
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(586, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(180, 36)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Close"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'PatientInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TabControl1)
         Me.Name = "PatientInfo"
-        Me.Size = New System.Drawing.Size(800, 450)
         Me.TabControl1.ResumeLayout(False)
         Me.Patient.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
@@ -712,6 +701,7 @@ Partial Class PatientInfo
 
     End Sub
 
+    Friend WithEvents PatientInfoPanel As Panel
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents Patient As TabPage
     Friend WithEvents Panel3 As Panel
@@ -759,5 +749,4 @@ Partial Class PatientInfo
     Friend WithEvents Label20 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label18 As Label
-    Friend WithEvents Button1 As Button
 End Class
