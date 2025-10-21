@@ -11,6 +11,21 @@
     Private Sub UcMainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         WelcomeText.Text = "Welcome, " + DataStore.currentUser(0) + " - " + DataStore.currentUser(3)
+        ' Get current username (lowercase for consistency)
+        Dim currentUser As String = DataStore.currentUser(3).ToLower()
+
+
+        If currentUser = "admin" Then
+            NewDoctorBtn.Visible = True
+            NewStaffBtn.Visible = True
+        ElseIf currentUser = "doctor" Then
+            AddPatientBtn.Visible = False
+            NewDoctorBtn.Visible = False
+            NewStaffBtn.Visible = False
+        ElseIf currentUser = "staff" Then
+            NewDoctorBtn.Visible = False
+            NewStaffBtn.Visible = False
+        End If
         'StartupAnimation() ' Disabled for now, no animation or sound
     End Sub
 
@@ -37,8 +52,12 @@
     '    End If
     'End Sub
 
-    Private Sub MM_NewBtn_Click(sender As Object, e As EventArgs) Handles MM_NewBtn.Click
-        AddPatient.Show()
+    Private Sub MM_NewBtn_Click(sender As Object, e As EventArgs) Handles AddPatientBtn.Click
+        MainContentPanel.Controls.Clear()
+        Dim patientRecords As New UcPatientRecords(MainContentPanel)
+        patientRecords.Dock = DockStyle.Fill
+        MainContentPanel.Controls.Add(patientRecords)
+        AddPatientBtn.Show()
     End Sub
 
     Private Sub MM_Panel_Paint(sender As Object, e As PaintEventArgs) Handles MM_Panel.Paint
@@ -109,5 +128,7 @@
         form.ShowDialog() ' blocks parent until closed
     End Sub
 
+    Private Sub WelcomeText_Click(sender As Object, e As EventArgs) Handles WelcomeText.Click
 
+    End Sub
 End Class

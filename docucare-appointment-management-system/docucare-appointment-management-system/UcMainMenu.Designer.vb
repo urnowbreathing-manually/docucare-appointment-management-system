@@ -31,7 +31,7 @@ Partial Class UcMainMenu
         Me.MM_Buttons = New System.Windows.Forms.TableLayoutPanel()
         Me.NewStaffBtn = New System.Windows.Forms.Button()
         Me.NewDoctorBtn = New System.Windows.Forms.Button()
-        Me.MM_NewBtn = New System.Windows.Forms.Button()
+        Me.AddPatientBtn = New System.Windows.Forms.Button()
         Me.HistoryBtn = New System.Windows.Forms.Button()
         Me.AppointmentBtn = New System.Windows.Forms.Button()
         Me.PatientRecordsBtn = New System.Windows.Forms.Button()
@@ -122,7 +122,7 @@ Partial Class UcMainMenu
         Me.MM_Buttons.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.MM_Buttons.Controls.Add(Me.NewStaffBtn, 0, 5)
         Me.MM_Buttons.Controls.Add(Me.NewDoctorBtn, 0, 4)
-        Me.MM_Buttons.Controls.Add(Me.MM_NewBtn, 0, 0)
+        Me.MM_Buttons.Controls.Add(Me.AddPatientBtn, 0, 0)
         Me.MM_Buttons.Controls.Add(Me.HistoryBtn, 0, 3)
         Me.MM_Buttons.Controls.Add(Me.AppointmentBtn, 0, 2)
         Me.MM_Buttons.Controls.Add(Me.PatientRecordsBtn, 0, 1)
@@ -162,15 +162,15 @@ Partial Class UcMainMenu
         Me.NewDoctorBtn.Text = "Create New Doctor Role"
         Me.NewDoctorBtn.UseVisualStyleBackColor = True
         '
-        'MM_NewBtn
+        'AddPatientBtn
         '
-        Me.MM_NewBtn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.MM_NewBtn.Location = New System.Drawing.Point(20, 7)
-        Me.MM_NewBtn.Name = "MM_NewBtn"
-        Me.MM_NewBtn.Size = New System.Drawing.Size(186, 39)
-        Me.MM_NewBtn.TabIndex = 0
-        Me.MM_NewBtn.Text = "Add New Patient"
-        Me.MM_NewBtn.UseVisualStyleBackColor = True
+        Me.AddPatientBtn.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.AddPatientBtn.Location = New System.Drawing.Point(20, 7)
+        Me.AddPatientBtn.Name = "AddPatientBtn"
+        Me.AddPatientBtn.Size = New System.Drawing.Size(186, 39)
+        Me.AddPatientBtn.TabIndex = 0
+        Me.AddPatientBtn.Text = "Add New Patient"
+        Me.AddPatientBtn.UseVisualStyleBackColor = True
         '
         'HistoryBtn
         '
@@ -263,7 +263,7 @@ Partial Class UcMainMenu
     Friend WithEvents HistoryBtn As Button
     Friend WithEvents AppointmentBtn As Button
     Friend WithEvents PatientRecordsBtn As Button
-    Friend WithEvents MM_NewBtn As Button
+    Friend WithEvents AddPatientBtn As Button
     Friend WithEvents MM_Title As PictureBox
     Friend WithEvents NewDoctorBtn As Button
     Friend WithEvents WelcomeText As Label
