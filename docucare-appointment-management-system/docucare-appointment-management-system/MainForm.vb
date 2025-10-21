@@ -1,6 +1,24 @@
-﻿Public Class MainForm
+﻿
+Public Class MainForm
+
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.StartPosition = FormStartPosition.CenterScreen
+
+        'ConnectionString = "server=localhost;user=root;database=DocUCare;port=3306;password=washer22456;"
+
+
+        'TEST DB CONNECTION
+
+        'MsgBox("Hello World!")
+        'Try
+        '    conn.Open()
+        '    MsgBox("Connected!")
+        'Catch ex As Exception
+        '    MsgBox(ex.Message)
+
+        'End Try
+        'conn.Close()
+
     End Sub
 
     Private Sub MainContentPanel_Paint(sender As Object, e As PaintEventArgs) Handles MainContentPanel.Paint
