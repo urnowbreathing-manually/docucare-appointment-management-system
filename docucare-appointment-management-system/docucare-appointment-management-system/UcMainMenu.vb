@@ -57,7 +57,7 @@
         Dim patientRecords As New UcPatientRecords(MainContentPanel)
         patientRecords.Dock = DockStyle.Fill
         MainContentPanel.Controls.Add(patientRecords)
-        AddPatientBtn.Show()
+        AddPatient.Show()
     End Sub
 
     Private Sub MM_Panel_Paint(sender As Object, e As PaintEventArgs) Handles MM_Panel.Paint

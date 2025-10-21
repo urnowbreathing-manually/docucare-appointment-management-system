@@ -215,10 +215,7 @@ Public Class AddPatient
 
         Me.Close()
 
-        UcMainMenu.MainContentPanel.Controls.Clear()
-        Dim patientInfo As New UcPatientInfo(UcMainMenu.MainContentPanel)
-        patientInfo.Dock = DockStyle.Fill
-        UcMainMenu.MainContentPanel.Controls.Add(patientInfo)
+        PatientInfo.Show()
 
     End Sub
 

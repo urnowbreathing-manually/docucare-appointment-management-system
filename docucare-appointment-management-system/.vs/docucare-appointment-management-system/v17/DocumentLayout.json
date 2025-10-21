@@ -1,120 +1,120 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\",
+  "WorkspaceRootPath": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\patientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\patientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\admin\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\patientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\patientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|c:\\users\\medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\consultationform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucpatientrecords.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\createdoctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addappointment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|docucare-appointment-management-system||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\prescriptions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\prescriptions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\prescriptions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\prescriptions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\prescriptions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\prescriptions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createstaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createstaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\createstaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createstaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\createstaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\createstaff.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\addpatient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucauthform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\editpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\editpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\editpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ucpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\ucpatientinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\uchistory.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\startup_fade.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\startup_fade.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{96491DF5-4928-49EA-ADB2-75AAB5FC4645}|docucare-appointment-management-system\\docucare-appointment-management-system.vbproj|solutionrelative:docucare-appointment-management-system\\startup_fade.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -125,28 +125,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "MainForm.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\MainForm.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\MainForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-28T08:15:17.989Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "ConsultationForm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\ConsultationForm.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb [Design]",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb [Design]",
               "RelativeToolTip": "docucare-appointment-management-system\\ConsultationForm.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-28T10:12:38.318Z",
@@ -155,24 +156,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
               "Title": "AddPatient.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\AddPatient.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\AddPatient.vb",
-              "ViewState": "AgIAADwAAAAAAAAAAAAuwFIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAM0AAAAgZmZmZmYUwNkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-28T03:37:51.646Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Prescriptions.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\Prescriptions.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\Prescriptions.vb",
               "ViewState": "AgIAADoAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -181,11 +183,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "UcAppointment.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcAppointment.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb [Design]",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb [Design]",
               "RelativeToolTip": "docucare-appointment-management-system\\UcAppointment.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-30T03:24:23.994Z",
@@ -194,26 +196,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UcPatientInfo.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientInfo.vb",
-              "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcPatientInfo.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientInfo.vb",
-              "RelativeToolTip": "docucare-appointment-management-system\\UcPatientInfo.vb",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAuwIUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-28T09:15:36.9Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "UcMainMenu.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcMainMenu.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\UcMainMenu.vb",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwHIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAADAmZmZmZkXwEMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-28T09:00:01.045Z",
               "IsPinned": true,
@@ -221,11 +210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "UcPatientRecords.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcPatientRecords.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb [Design]",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb [Design]",
               "RelativeToolTip": "docucare-appointment-management-system\\UcPatientRecords.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-30T03:32:00.936Z",
@@ -234,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "UcPatientRecords.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcPatientRecords.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientRecords.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\UcPatientRecords.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAA6wBEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -248,50 +237,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 8,
               "Title": "UcHistory.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcHistory.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb [Design]",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb [Design]",
               "RelativeToolTip": "docucare-appointment-management-system\\UcHistory.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-30T03:37:33.472Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddAppointment.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb",
-              "RelativeDocumentMoniker": "docucare-appointment-management-system\\AddAppointment.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\AddAppointment.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-01T01:32:39.871Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddAppointment.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb",
+              "DocumentIndex": 15,
+              "Title": "AddAppointment.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\AddAppointment.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-01T01:32:39.871Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddAppointment.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\AddAppointment.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddAppointment.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\AddAppointment.vb",
               "ViewState": "AgIAAAEAAAAAAAAAAAA1wA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-01T01:52:27.261Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CreateDoctor.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\CreateDoctor.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb [Design]",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb [Design]",
               "RelativeToolTip": "docucare-appointment-management-system\\CreateDoctor.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-09T07:38:30.924Z",
@@ -300,36 +288,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UcMainMenu.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb",
-              "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcMainMenu.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\UcMainMenu.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-10T04:36:56.638Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Prescriptions.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\Prescriptions.vb",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\Prescriptions.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Prescriptions.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-28T11:10:48.848Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "UcAppointment.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcAppointment.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAppointment.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\UcAppointment.vb",
               "ViewState": "AgIAAFAAAAAAAAAAAAAmwF0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -339,46 +314,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "UcMainMenu.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcMainMenu.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcMainMenu.vb [Design]",
+              "RelativeToolTip": "docucare-appointment-management-system\\UcMainMenu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-21T08:21:49.116Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientInfo.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\PatientInfo.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\PatientInfo.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\PatientInfo.vb",
+              "RelativeToolTip": "docucare-appointment-management-system\\PatientInfo.vb",
+              "ViewState": "AgIAADkAAAAA4MzMzMzsv30AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-21T08:19:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientInfo.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\PatientInfo.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\PatientInfo.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\PatientInfo.vb [Design]",
+              "RelativeToolTip": "docucare-appointment-management-system\\PatientInfo.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-21T08:10:18.122Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AddPatient.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\AddPatient.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb [Design]",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\AddPatient.vb [Design]",
               "RelativeToolTip": "docucare-appointment-management-system\\AddPatient.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-28T03:35:41.304Z"
+              "WhenOpened": "2025-09-28T03:35:41.304Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "docucare-appointment-management-system",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system.vbproj",
-              "RelativeDocumentMoniker": "docucare-appointment-management-system\\docucare-appointment-management-system.vbproj",
-              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system.vbproj*",
-              "RelativeToolTip": "docucare-appointment-management-system\\docucare-appointment-management-system.vbproj*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-28T08:18:57.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "ConsultationForm.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\ConsultationForm.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\ConsultationForm.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\ConsultationForm.vb",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-28T10:20:13.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
+              "Title": "docucare-appointment-management-system",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system.vbproj",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\docucare-appointment-management-system.vbproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system.vbproj*",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ADMIN\\Source\\Repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system.vbproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-28T08:18:57.328Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CreateDoctor.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\CreateDoctor.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateDoctor.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\CreateDoctor.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -387,23 +404,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "UcAuthForm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcAuthForm.vb",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\UcAuthForm.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-09T06:46:31.81Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-09T06:46:31.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "CreateStaff.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\CreateStaff.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\CreateStaff.vb",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -411,58 +427,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "CreateStaff.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\CreateStaff.vb",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\CreateStaff.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\CreateStaff.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-10T04:30:14.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "UcAuthForm.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcAuthForm.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcAuthForm.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\UcAuthForm.vb",
               "ViewState": "AgIAABwAAAAAAAAAAAD4vzMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-09T06:50:01.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MainForm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb",
-              "RelativeDocumentMoniker": "docucare-appointment-management-system\\MainForm.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\MainForm.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-28T08:14:44.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UcPatientInfo.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientInfo.vb",
-              "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcPatientInfo.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcPatientInfo.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\UcPatientInfo.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-28T09:09:53.605Z"
+              "WhenOpened": "2025-10-09T06:50:01.058Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "MainForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb",
+              "RelativeDocumentMoniker": "docucare-appointment-management-system\\MainForm.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\MainForm.vb [Design]",
+              "RelativeToolTip": "docucare-appointment-management-system\\MainForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-28T08:14:44.631Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "EditPatientInfo.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\EditPatientInfo.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\EditPatientInfo.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\EditPatientInfo.vb",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\EditPatientInfo.vb [Design]",
-              "RelativeToolTip": "docucare-appointment-management-system\\EditPatientInfo.vb [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\EditPatientInfo.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-07T05:19:57.641Z"
             },
@@ -470,19 +475,20 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "UcHistory.vb",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\UcHistory.vb",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb",
+              "ToolTip": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\UcHistory.vb",
               "RelativeToolTip": "docucare-appointment-management-system\\UcHistory.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAIAzwA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-30T03:40:30.233Z"
+              "WhenOpened": "2025-09-30T03:40:30.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Startup_Fade.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Startup_Fade.vb",
+              "DocumentMoniker": "C:\\Users\\Medina\\source\\repos\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Startup_Fade.vb",
               "RelativeDocumentMoniker": "docucare-appointment-management-system\\Startup_Fade.vb",
               "ToolTip": "C:\\Users\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Startup_Fade.vb [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Winblows 11\\Documents\\OOP\\docucare-appointment-management-system\\docucare-appointment-management-system\\docucare-appointment-management-system\\Startup_Fade.vb [Design]",
